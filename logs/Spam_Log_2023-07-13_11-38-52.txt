@@ -1,0 +1,2007 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: H585GHGI6rA, 877P8jot4Z8, 40XdJ9orIRY
+
+Automatic Search Mode: Sensitive Smart 
+
+Number of Matched Comments Found: 20
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 79
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 97
+
+IDs of Matched & Duplicate & Reposted Comments Found: 
+[ Ugw6l8QaJEyuKB1bMrN4AaABAg, UgyEzZgMeAHHeeEkend4AaABAg, UgzZwCxfvT79trImjQl4AaABAg, UgyXqvtLVDq2xWxvlEZ4AaABAg, UgzhHILYJfImpK5RHa14AaABAg, UgwZTlHMNhsImOXujj14AaABAg, UgwkORjsDbXXMQ_uUoF4AaABAg, UgyAZIFVk453IZK1BTl4AaABAg, Ugx4xAXrEWL0GxG-tMh4AaABAg, UgxNd4wYNzXZ9nUiOVB4AaABAg, UgxQmba44jz0CmcqQ8d4AaABAg, Ugz-PfwTdK03SVGPnM54AaABAg, UgxkPsWw6Dm7RhtjjwR4AaABAg, Ugy1IF1PqkoD2iAQSLZ4AaABAg, UgyyAL5RZACYACxpDr54AaABAg, Ugy0ytTbC5ORm47nYxp4AaABAg.9rsVLu0t0Np9rtgesMnRED, UgzvOXyIVvLBL6Gn6Uh4AaABAg, Ugyth3z6f7bXScyKP-B4AaABAg, Ugw9zqfOZwxGCZHryDV4AaABAg, UgwrDlVoB7iw9YSXz754AaABAg, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4q-qeeZ8q, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pcCq-CCQ, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pbD-cHrX, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4p_mp-DmR, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pZvBFMSO, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pZ51-Qet, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pYCEqGyr, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pWkwo4BM, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pVa5xf8l, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pTmt2GKO, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pSv6G1DW, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pRzbG4-b, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pQqhtdFt, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pPtNOWRp, UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pP4mOegz, UgwLjPQ_NWCBxky-OVt4AaABAg, UgwLtl7F8Euow44LAfp4AaABAg, Ugy5yGx52lccJG3skJV4AaABAg, Ugw3jrjc9p7U3-RDjht4AaABAg, Ugy42_KlQcvvwhyeALh4AaABAg, Ugy2qpbBJ3dJlcH4X2V4AaABAg, UgwaTdgXts0HOV-QI414AaABAg, UgzsjAIgzDHNn5PNkFl4AaABAg, UgzSKO4WNecVoS1sKgV4AaABAg, Ugz_f90ZdF4XxTqGfzx4AaABAg, UgwoEq8dvo_ZAvckPjJ4AaABAg, UgxxJILOCdO_ZHQa0SF4AaABAg, UgzTRpjb2jFZL2Gyv0p4AaABAg, Ugy2zOl13-Ra74ccpvJ4AaABAg, Ugw0c3i-N_8bk-0Nu514AaABAg, UgyL_mfPB6xAKqR1MSN4AaABAg, Ugzf0ZdVoFFqQ26ro4x4AaABAg, UgxMDNRftuIkMp2awxN4AaABAg, Ugy5KRtuba3Jq0zw7F94AaABAg, UgxZyRk2WSn94FfrGJR4AaABAg, Ugz340N1ndIqts0V7AB4AaABAg, Ugytt3g1OwUOELvN4CR4AaABAg, UgwCbOomiSjsmuFDTRh4AaABAg, UgwlOmBIwUjTN3yWKnx4AaABAg, UgwluBR1Cg_LbEThFPZ4AaABAg, Ugw22jZ5NgrJzvi1xxl4AaABAg, Ugyf-aYSpK3UcuteNOx4AaABAg, UgwRoGMzZGcTo8FmM1l4AaABAg, UgxciEPT6U5_9qIhpgh4AaABAg, Ugyr6PpHW_QtZeD7BlN4AaABAg, Ugyeh5NJ9dL_TjJVEMZ4AaABAg, UgwSf2RwVpP1YMk5Fjl4AaABAg, Ugy8A-Z03ysDZcTCHOt4AaABAg, Ugy12cPPkVwBfl1TMYx4AaABAg, Ugwft5wRQNnTsRDMNgB4AaABAg, Ugz-QW7_QFPTQu55pwx4AaABAg, UgyOOlYMgFAkajZqw1x4AaABAg, UgzOZrqUqPhFsUeQldl4AaABAg, UgwXoXkhlLqvB2mGhS14AaABAg, UgyCQEGH_31QE6a9V2B4AaABAg, UgxlhaoltF11wHh1zzx4AaABAg, UgzgNNZncDdq44FpH_V4AaABAg, Ugz2cXwMNmcLQolfChx4AaABAg, UgzIbxBRMIb3sTJtlbF4AaABAg, UgxIdk3Hclk4eAc6Ctx4AaABAg, UgybSk-y5bi9QA1TQ0l4AaABAg, Ugx1-AVQGuP2cEx9VRd4AaABAg, Ugz6NDYdoNljZirqRKB4AaABAg, Ugxrso1KUiFLd28QACF4AaABAg, Ugy8BFiXXWikJ8RQknp4AaABAg, Ugyg6uER0L4WAZ_TF054AaABAg, UgwWSUB5bwFPMUbW9o54AaABAg.9rtdzasTay39rte0eiw_Lc, UgwJCJCEqE9GoWiNQd54AaABAg, UgyTlpp15woJUDUn60F4AaABAg, UgzqEcKtt1Z6qb7ZGmZ4AaABAg, UgyABtuiBf7wa8zwAR14AaABAg, UgyRUyrW1Upy5ife-rx4AaABAg, Ugz8NLWu-VDb5gPNpQl4AaABAg, UgyJbjwNwlgWbqV1RKd4AaABAg, UgxKtM5QfsORORp6YmF4AaABAg, Ugw9cEZRiYG2iSafH2B4AaABAg, Ugyy3g99PqSf928I1V14AaABAg, UgzfC1BcXMssAWgUjjJ4AaABAg, UgyFiqhQNzZ9q5o5F394AaABAg.9rsNvMBNIUn9rtd9oD5yYL, UgzIzX7UPRLzH7rXFy94AaABAg, Ugwv6n6EhwTLRXjH8Yp4AaABAg, Ugy6ZS9HfY2r_Ld3dQ14AaABAg, Ugw33pv39qwuMKtXPcp4AaABAg, UgyvfonhPLrMkoZQATx4AaABAg, Ugzuw718ovh1fSekfFJ4AaABAg, UgxC1Cnh_Tn8zgUqPOZ4AaABAg, UgwwCRmi9xpS-pUcXiB4AaABAg, UgzQV4Y2niSzjJlGvhh4AaABAg, UgzIlzBKzDX7RfwIw_h4AaABAg, UgydIfavNY9AWl0Byv14AaABAg, UgwjDo4nckeIdLcxdbx4AaABAg, UgxWQDERnCGCwR4HAXt4AaABAg, UgwDWTs2Vr1ZEjkyqFp4AaABAg, UgyZbWds-8bI_5of8vh4AaABAg, Ugy4Lid0qbkzHnqN0jd4AaABAg, Ugyb5f-VC81a-eOzKk14AaABAg, Ugz3IORzBQchJSnA5Eh4AaABAg, Ugy5-CZWjIcd9t9Cj094AaABAg, UgxpOOGRjOq3NL_H8md4AaABAg, UgxODlq8TTTdA92eNkd4AaABAg, UgziM-QcJ2_cbrCiJZF4AaABAg, UgzGg60h0WUDKxPdRK94AaABAg, UgwdHwhFEeMTGusQ6_J4AaABAg, Ugw80Qv360--1ANQHY94AaABAg, Ugx-0W9DQlgpCh1cUh94AaABAg, UgwW7CDWwGCrM0YMBMt4AaABAg, Ugzloe9FnzRxvOIMVfd4AaABAg, Ugz18OW2qIUxS75PooF4AaABAg, UgwfFlcVVXGV8YFJzOV4AaABAg, UgyRwrCheVZrPFDnfpF4AaABAg, UgxIW_iFrC2tKaBXC754AaABAg, UgwzU9hiatUUjUt1d454AaABAg, UgwHwsQjPjdXFFi_Pmt4AaABAg, Ugwk4hipD3eoPJjngyZ4AaABAg, Ugzsweih6lliE1q6IL54AaABAg, Ugw6llgSKUimjlz91Zx4AaABAg, Ugwth25tqnglV9R4QmZ4AaABAg, Ugyt2mYlG15ht0QQygN4AaABAg, UgyejL3aT7lbwUoeRPZ4AaABAg, UgwttZ1mHksOkCraQah4AaABAg, UgwKkrHmj9Rlw8nA7Cl4AaABAg, UgxCVoL9R5ceYwXxHcl4AaABAg, UgzicE78OCRf5ItReOx4AaABAg, Ugx4tjZXTLPUR34zTkh4AaABAg, UgzpLvmmBH8IBJ_rTNh4AaABAg, UgxOXBx-ApLznuVwGrV4AaABAg, UgwTUuF0rj0QSvzR3ch4AaABAg, UgxoS2x0YS1ahlG08JZ4AaABAg, UgycMw1eDsWlXCq6Uw94AaABAg, UgxJCGz9bokxsmgPLEl4AaABAg, Ugw1xYgpDBNDSfEgqOp4AaABAg, UgyGWNsSssHpQ2lWYeR4AaABAg, UgxFb4visY9wX5gemod4AaABAg, Ugy3NInqCN11-AN89pd4AaABAg, UgzsDLu4Rh8aQQlu8mx4AaABAg, Ugy9re42qQlE6Rciw194AaABAg, Ugzu5qiGdaXWklo0uC54AaABAg, Ugy-beaRBc-ZZicklIZ4AaABAg, UgyODkriDbo8psDNzz94AaABAg, Ugyt5AYLEENzOJgUiFt4AaABAg, UgyxrV_UcNfezEeZJdt4AaABAg, UgwHGnNSLwCtck2jzap4AaABAg, UgzRy1ZLmZXUp62S8uV4AaABAg, Ugx_uln3QKw7OrjMa-94AaABAg, UgzByFY34E2cd5mZ5LR4AaABAg, Ugx8tV_evSdVy7p_lC54AaABAg, Ugx_sVlmlR-4pqe4JL54AaABAg, UgzxpGctPMjHzwQEQW54AaABAg, UgzhdWagcOOjLNk9DDF4AaABAg, UgwKr43RuS_OjyeYEcN4AaABAg, UgyO_FvbcLYVPlfnGVB4AaABAg, UgwLoxFNibkJ3VuwMIl4AaABAg, UgwgIBeHvBFrUAcW35N4AaABAg, UgwqKR9h8C9i_k5bSQN4AaABAg, Ugzen_cZscbLY4XtaBx4AaABAg, UgwDHJcaiXiwqMWy1Kh4AaABAg, UgysDIWxdo3Y0-ybV2Z4AaABAg, UgxcEJY5EpOvUI7PByx4AaABAg, UgzVj4OnmrWbOYa81Jp4AaABAg, UgyW6wtFQhgbBfqttOV4AaABAg, UgxqYOIIK3EhP5IB9dt4AaABAg, UgyzofOryVaiWGDjs0l4AaABAg, UgyYTQdTMGXSyRuO5Jt4AaABAg, UgzoOFOKzEUHopwkPPl4AaABAg, Ugx9g775WrwCg4rSOi14AaABAg, UgwrbzwdZFdeSWLB3kZ4AaABAg, UgyNkZOHhOs4xY3dQeZ4AaABAg, UgzY6fT_LERE35Kdgvx4AaABAg, UgwvRff0pHF7X2WDHQN4AaABAg, UgxG-qAhkL8HycA3sg14AaABAg, UgzfjN1DwPpey3MMYVZ4AaABAg, UgwnF19961bxr08sZG54AaABAg, UgxMJjAclOKfiFcYUz54AaABAg, UgypGS8k7WTivtFTBa54AaABAg, UgyCn3JmYhljD1A2ED54AaABAg, Ugy0FG5ws9TdtOUT0M94AaABAg ] 
+
+
+1. Anik B:  Harry sir, Love this video but I am also following ur android development course of 12 hours i finished watch first 8 hours and tried to build a basic app of qna over programming  I finished every thing but getting this error -----"Duplicate class kotlin.collections.jdk8.CollectionsJDK8Kt found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk8-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21)      Duplicate class kotlin.internal.jdk7.JDK7PlatformImplementations found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk7-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21)      Duplicate class kotlin.internal.jdk7.JDK7PlatformImplementations$ReflectSdkVersion found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk7-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21)      Duplicate class kotlin.internal.jdk8.JDK8PlatformImplementations found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk8-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21)      Duplicate class kotlin.internal.jdk8.JDK8PlatformImplementations$ReflectSdkVersion found in modules kotlin-stdlib-1.8.20 (org.jetbrains.kotlin:kotlin-stdlib:1.8.20) and kotlin-stdlib-jdk8-1.6.21 (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21)      Duplicate class kotlin.io.path.ExperimentalPathApi found in modules kotlin-stdlib-1.[Comment Truncated by YT Spammer Purge]
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 12, 2023 @ 05:35:29 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw6l8QaJEyuKB1bMrN4AaABAg
+     > Author Channel ID: UCVJ6892l7LUwozfnXaW0aYQ
+=============================================================================================
+
+
+2. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 09, 2023 @ 12:31:49 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyEzZgMeAHHeeEkend4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+3. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 09, 2023 @ 12:31:36 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzZwCxfvT79trImjQl4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+4. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 09, 2023 @ 12:31:26 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyXqvtLVDq2xWxvlEZ4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+5. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 09, 2023 @ 12:31:16 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzhHILYJfImpK5RHa14AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+6. Yogesh Wati:  https://youtu.be/_6IkTS94ka8
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 06:07:25 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgwZTlHMNhsImOXujj14AaABAg
+     > Author Channel ID: UCABgBGVC0wKmdXHvVc99eBw
+=============================================================================================
+
+
+7. RDX:  ek baar mei most common category.. middle class families ke sare bachhon ke heart ko bhaiya ne  chhoo diya 💖👈 yaha pe 00:53  02:02
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 04:22:47 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgwkORjsDbXXMQ_uUoF4AaABAg
+     > Author Channel ID: UC84P9dgX9AtDeeTIUohVCkA
+=============================================================================================
+
+
+8. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 04:05:43 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgyAZIFVk453IZK1BTl4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+9. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 04:04:34 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugx4xAXrEWL0GxG-tMh4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+10. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 04:04:28 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgxNd4wYNzXZ9nUiOVB4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+11. Champ Abhi:  https://youtube.com/shorts/vP08BGdN9ck?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 04:04:21 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgxQmba44jz0CmcqQ8d4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+12. kushal guru:  https://youtu.be/PgimR9PELAA
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 01:37:33 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugz-PfwTdK03SVGPnM54AaABAg
+     > Author Channel ID: UCE8WH00HeGnlTUauwyhPDSA
+=============================================================================================
+
+
+13. Shebz:  @CodeWithHarry Harry Bhai... mai post graduate hu  computer me ...lekin kafi years se business me tha job nahi karta tha...ab business sahi se chal nahi raha ab mai job karna chahta hu....lekin age bohot ho gai hai approx 35....to kya mai sab kuch revise kar k projects bana kar as a fresher hire ho sakta hu...?kya age ka masla aaega.... Aur fir resume me kya mention kare....please reply I am really worried about my career...😥 Thanks for your guidance in advance..♥️
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 08:42:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgxkPsWw6Dm7RhtjjwR4AaABAg
+     > Author Channel ID: UC1wh7h-jSGFwISFaEuFM7kA
+=============================================================================================
+
+
+14. Vishvas Solanki 🖤:  Code with harry is Hacker ❤
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 02:24:23 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugy1IF1PqkoD2iAQSLZ4AaABAg
+     > Author Channel ID: UC5t568WXtK-G__5fc8GjSMQ
+=============================================================================================
+
+
+15. CodeSaif:  like for github tutorial 👇
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 07, 2023 @ 06:48:52 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyyAL5RZACYACxpDr54AaABAg
+     > Author Channel ID: UCtrzEN3yYaRJI9vKbqnbntg
+=============================================================================================
+
+
+16. AMIT 07😙:  https://youtu.be/gwWKnnCMQ5c
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 08, 2023 @ 05:32:10 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugy0ytTbC5ORm47nYxp4AaABAg.9rsVLu0t0Np9rtgesMnRED
+     > Author Channel ID: UCrhYJCUyy2_WUPN2kgTNhtQ
+=============================================================================================
+
+
+17. GB CREATION 💕💯:  Thanks ❤️
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 07, 2023 @ 06:08:25 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgzvOXyIVvLBL6Gn6Uh4AaABAg
+     > Author Channel ID: UCDjDb0iI_W9YyekotZ-3k7w
+=============================================================================================
+
+
+18. Champ Abhi:  https://youtube.com/shorts/xM7I5YVAXEU?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 07, 2023 @ 05:20:57 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugyth3z6f7bXScyKP-B4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+19. Champ Abhi:  https://youtube.com/shorts/xM7I5YVAXEU?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 07, 2023 @ 05:20:40 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugw9zqfOZwxGCZHryDV4AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+20. Champ Abhi:  https://youtube.com/shorts/xM7I5YVAXEU?feature=share
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 07, 2023 @ 05:20:08 PM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgwrDlVoB7iw9YSXz754AaABAg
+     > Author Channel ID: UCWeEVgmZqNhEoSkyfjS4kZg
+=============================================================================================
+
+
+
+
+============================================================================================
+=========================== Non-Matched, But Duplicate Comments ===========================
+============================================================================================
+
+21. only comady:  bhi ak youtube jasi like wabsite banany ka course daly
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:44:41 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4q-qeeZ8q
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+22. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:41:19 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pcCq-CCQ
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+23. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:41:11 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pbD-cHrX
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+24. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:41:00 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4p_mp-DmR
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+25. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:53 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pZvBFMSO
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+26. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:46 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pZ51-Qet
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+27. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:38 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pYCEqGyr
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+28. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:27 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pWkwo4BM
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+29. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:17 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pVa5xf8l
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+30. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:40:02 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pTmt2GKO
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+31. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:39:55 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pSv6G1DW
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+32. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:39:48 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pRzbG4-b
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+33. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:39:38 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pQqhtdFt
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+34. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:39:30 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pPtNOWRp
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+35. only comady:  bhi all hacking course upload kro plssssssssss
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:39:24 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxynWvpilmzvPrvjx54AaABAg.9s0vKvX5C7c9s4pP4mOegz
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+36. only comady:  b
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:38:47 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwLjPQ_NWCBxky-OVt4AaABAg
+     > Author Channel ID: UCzVGeqLhKc_o9WXNZv_QUgw
+=============================================================================================
+
+
+37. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:28 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwLtl7F8Euow44LAfp4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+38. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:25 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy5yGx52lccJG3skJV4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+39. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:22 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw3jrjc9p7U3-RDjht4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+40. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:18 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy42_KlQcvvwhyeALh4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+41. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:15 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy2qpbBJ3dJlcH4X2V4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+42. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:12 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwaTdgXts0HOV-QI414AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+43. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:08 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzsjAIgzDHNn5PNkFl4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+44. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:59:02 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzSKO4WNecVoS1sKgV4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+45. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:59 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz_f90ZdF4XxTqGfzx4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+46. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:56 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwoEq8dvo_ZAvckPjJ4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+47. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:53 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxxJILOCdO_ZHQa0SF4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+48. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:50 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzTRpjb2jFZL2Gyv0p4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+49. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:47 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy2zOl13-Ra74ccpvJ4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+50. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:44 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw0c3i-N_8bk-0Nu514AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+51. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:40 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyL_mfPB6xAKqR1MSN4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+52. Full X Movie:  please made a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 13, 2023 @ 04:58:05 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzf0ZdVoFFqQ26ro4x4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+53. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:30:16 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxMDNRftuIkMp2awxN4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+54. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:30:11 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy5KRtuba3Jq0zw7F94AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+55. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:30:06 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxZyRk2WSn94FfrGJR4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+56. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:29:59 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz340N1ndIqts0V7AB4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+57. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:29:52 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugytt3g1OwUOELvN4CR4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+58. Full X Movie:  We need web development course from scratch to advanced 🥺
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 04:29:44 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwCbOomiSjsmuFDTRh4AaABAg
+     > Author Channel ID: UCnKKz0zIR4bPCXiGsJbCPwg
+=============================================================================================
+
+
+59. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:04:07 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwlOmBIwUjTN3yWKnx4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+60. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:04:04 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwluBR1Cg_LbEThFPZ4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+61. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:04:01 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw22jZ5NgrJzvi1xxl4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+62. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:57 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyf-aYSpK3UcuteNOx4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+63. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:53 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwRoGMzZGcTo8FmM1l4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+64. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:48 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxciEPT6U5_9qIhpgh4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+65. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:44 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyr6PpHW_QtZeD7BlN4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+66. Asif Jubair:  we want a web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyeh5NJ9dL_TjJVEMZ4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+67. Asif Jubair:  sir , we want a web development course from zero to advance
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 12, 2023 @ 10:03:06 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwSf2RwVpP1YMk5Fjl4AaABAg
+     > Author Channel ID: UCbFiRuQTzaa06VlH3-E558A
+=============================================================================================
+
+
+68. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:12:46 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy8A-Z03ysDZcTCHOt4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+69. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:12:37 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy12cPPkVwBfl1TMYx4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+70. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:12:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugwft5wRQNnTsRDMNgB4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+71. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:12:16 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz-QW7_QFPTQu55pwx4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+72. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:12:07 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyOOlYMgFAkajZqw1x4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+73. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:11:57 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzOZrqUqPhFsUeQldl4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+74. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:11:42 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwXoXkhlLqvB2mGhS14AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+75. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:11:31 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyCQEGH_31QE6a9V2B4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+76. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:11:06 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxlhaoltF11wHh1zzx4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+77. Abhishek Rathi:  We want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:10:55 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzgNNZncDdq44FpH_V4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+78. Abhishek Rathi:  Yes We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 10, 2023 @ 11:08:03 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz2cXwMNmcLQolfChx4AaABAg
+     > Author Channel ID: UCZj9bzqQHHDhWch8sNTf1jw
+=============================================================================================
+
+
+79. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:48 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgzIbxBRMIb3sTJtlbF4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+80. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:39 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgxIdk3Hclk4eAc6Ctx4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+81. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:30 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=UgybSk-y5bi9QA1TQ0l4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+82. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:22 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugx1-AVQGuP2cEx9VRd4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+83. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:13 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugz6NDYdoNljZirqRKB4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+84. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:24:05 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugxrso1KUiFLd28QACF4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+85. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:23:57 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugy8BFiXXWikJ8RQknp4AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+86. Piyush Kumar:  Macmini m2 kaisa hoga lena ? For college students
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 04:15:18 PM
+     > Direct Link: https://www.youtube.com/watch?v=877P8jot4Z8&lc=Ugyg6uER0L4WAZ_TF054AaABAg
+     > Author Channel ID: UC9U8yKP4hXdhFr7-gRBCQag
+=============================================================================================
+
+
+87. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:09:03 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgwWSUB5bwFPMUbW9o54AaABAg.9rtdzasTay39rte0eiw_Lc
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+88. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:07:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgwJCJCEqE9GoWiNQd54AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+89. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:49 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyTlpp15woJUDUn60F4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+90. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:44 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgzqEcKtt1Z6qb7ZGmZ4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+91. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:38 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyABtuiBf7wa8zwAR14AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+92. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:31 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyRUyrW1Upy5ife-rx4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+93. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugz8NLWu-VDb5gPNpQl4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+94. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:20 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyJbjwNwlgWbqV1RKd4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+95. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:06:12 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgxKtM5QfsORORp6YmF4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+96. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:05:56 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugw9cEZRiYG2iSafH2B4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+97. quote:  Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata na coding na kuch kya kru keuki sirf mere pass 6,7 month baki hai plz reply or make video on this topic as soon as plz
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:05:47 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=Ugyy3g99PqSf928I1V14AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+98. quote:  Dsa
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:01:41 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgzfC1BcXMssAWgUjjJ4AaABAg
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+99. quote:  Dsa
+---------------------------------------------------------------------------------------------
+     > Reason: Duplicate
+     > Timestamp: Jul 08, 2023 @ 05:01:34 AM
+     > Direct Link: https://www.youtube.com/watch?v=40XdJ9orIRY&lc=UgyFiqhQNzZ9q5o5F394AaABAg.9rsNvMBNIUn9rtd9oD5yYL
+     > Author Channel ID: UCY70ChFGe9xC7XDSWcOB_aA
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== Non-Matched, But Stolen & Reposted Comments =======================
+============================================================================================
+
+100. Animated gamor:  We want 100 Days of DSA in C++ or Web Dev or Android Dev ❤❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzudNVfUbG3YS52k6d4AaABAg
+     > Timestamp: Jul 09, 2023 @ 12:33:39 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzIzX7UPRLzH7rXFy94AaABAg
+     > Author Channel ID: UCLr38ruE-_KHzJJwDqfbOhg
+=============================================================================================
+
+
+101. Safa Aslam:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 12:36:10 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugwv6n6EhwTLRXjH8Yp4AaABAg
+     > Author Channel ID: UCDYfNBsJ1okLaDS2wm5iFBw
+=============================================================================================
+
+
+102. Kumail Tariq:  We need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyM6c0G8NQM-dOWsUl4AaABAg
+     > Timestamp: Jul 09, 2023 @ 12:36:12 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy6ZS9HfY2r_Ld3dQ14AaABAg
+     > Author Channel ID: UCDGKGJL6uGMFz8P7wzdpbBw
+=============================================================================================
+
+
+103. Himani:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 12:50:43 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw33pv39qwuMKtXPcp4AaABAg
+     > Author Channel ID: UCQcHuH76VL3wt0getTWTKeg
+=============================================================================================
+
+
+104. Gtibra Mail:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 12:55:25 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyvfonhPLrMkoZQATx4AaABAg
+     > Author Channel ID: UCcqeh2NchNJM2Mb6FmPUDrA
+=============================================================================================
+
+
+105. Create DOT:  We want web development ❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxh8P4UEe51oHoNJSp4AaABAg
+     > Timestamp: Jul 09, 2023 @ 01:07:33 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzuw718ovh1fSekfFJ4AaABAg
+     > Author Channel ID: UCDM5ZkYWT2Sfb9_BriziU-A
+=============================================================================================
+
+
+106. Anurag Sharma:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 01:26:04 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxC1Cnh_Tn8zgUqPOZ4AaABAg
+     > Author Channel ID: UCoL2CyLRdeSMcXFImWkb02g
+=============================================================================================
+
+
+107. Kishan:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 01:33:11 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwwCRmi9xpS-pUcXiB4AaABAg
+     > Author Channel ID: UCI6e51cRu4QOhK-pFZhhs2g
+=============================================================================================
+
+
+108. Jayakanth:  We need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyM6c0G8NQM-dOWsUl4AaABAg
+     > Timestamp: Jul 09, 2023 @ 01:38:40 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzQV4Y2niSzjJlGvhh4AaABAg
+     > Author Channel ID: UCCigCL6zN4T9IwqqozC0FfA
+=============================================================================================
+
+
+109. Rizwan ismail:  Web development course please
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugwli_sXsSAtvttjHxB4AaABAg
+     > Timestamp: Jul 09, 2023 @ 01:49:33 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzIlzBKzDX7RfwIw_h4AaABAg
+     > Author Channel ID: UCNIp5dyfO6x09kCks9DzcvA
+=============================================================================================
+
+
+110. EfFecTS oF Mp3:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:12:11 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgydIfavNY9AWl0Byv14AaABAg
+     > Author Channel ID: UCZSqWSQYecAbET0gLbvUbPg
+=============================================================================================
+
+
+111. Pranav Kulkarni:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:17:27 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwjDo4nckeIdLcxdbx4AaABAg
+     > Author Channel ID: UC5x1WG9s_Fj-29F1yYNfvYA
+=============================================================================================
+
+
+112. Code Mastery:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:22:45 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxWQDERnCGCwR4HAXt4AaABAg
+     > Author Channel ID: UCyLGrc69st4ZyNfvL1ul8yA
+=============================================================================================
+
+
+113. KKshort 1M:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:29:15 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwDWTs2Vr1ZEjkyqFp4AaABAg
+     > Author Channel ID: UCWEAPDSXQjhUodO883C3Tng
+=============================================================================================
+
+
+114. KKshort 1M:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:29:20 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyZbWds-8bI_5of8vh4AaABAg
+     > Author Channel ID: UCWEAPDSXQjhUodO883C3Tng
+=============================================================================================
+
+
+115. KKshort 1M:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:29:25 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy4Lid0qbkzHnqN0jd4AaABAg
+     > Author Channel ID: UCWEAPDSXQjhUodO883C3Tng
+=============================================================================================
+
+
+116. KKshort 1M:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:29:31 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyb5f-VC81a-eOzKk14AaABAg
+     > Author Channel ID: UCWEAPDSXQjhUodO883C3Tng
+=============================================================================================
+
+
+117. Abhijit Das:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 02:48:11 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz3IORzBQchJSnA5Eh4AaABAg
+     > Author Channel ID: UC77BSBOMrk42qIz-h0rUWEw
+=============================================================================================
+
+
+118. Good vibe:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:06:49 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy5-CZWjIcd9t9Cj094AaABAg
+     > Author Channel ID: UCAkEWE6g1z5dQAbXSL8DkFw
+=============================================================================================
+
+
+119. GR Creation 02:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:15:32 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxpOOGRjOq3NL_H8md4AaABAg
+     > Author Channel ID: UCvL35BCW0QFGtAqtKWMVG-A
+=============================================================================================
+
+
+120. Yash:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:21:21 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxODlq8TTTdA92eNkd4AaABAg
+     > Author Channel ID: UCk_zsDqPOpdPOKiesm_vRPA
+=============================================================================================
+
+
+121. Mohd Saif:  Yes sir , we want a web development course from zero to fully advance
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz8ciwD_PVZKbON0oh4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:23:14 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgziM-QcJ2_cbrCiJZF4AaABAg
+     > Author Channel ID: UCU3KGcy64ASZxa4h0wMn6gA
+=============================================================================================
+
+
+122. Garvit Gakhreja:  Yes Harry Bhai we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw0QH9lr33DOjVCWT94AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:26:02 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzGg60h0WUDKxPdRK94AaABAg
+     > Author Channel ID: UCGrAGtdg3DaO_WCE1s1qQQg
+=============================================================================================
+
+
+123. Sayan mondal:  we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxf5mb-SbPaNGlZ9zt4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:34:19 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwdHwhFEeMTGusQ6_J4AaABAg
+     > Author Channel ID: UCF3mrcAzWRCLkMSDJGkGCYA
+=============================================================================================
+
+
+124. Abdullah Rizwi:  we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxf5mb-SbPaNGlZ9zt4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:40:49 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw80Qv360--1ANQHY94AaABAg
+     > Author Channel ID: UCBBs7FpY6qPUeKSTreFKoJg
+=============================================================================================
+
+
+125. Sikka Loot:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:54:26 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx-0W9DQlgpCh1cUh94AaABAg
+     > Author Channel ID: UCZgeWHjTBkvzSggeSSDRpJw
+=============================================================================================
+
+
+126. Hamd-o-Naat TV:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 03:56:38 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwW7CDWwGCrM0YMBMt4AaABAg
+     > Author Channel ID: UCevV6gW5qKqsqttvXaPfFYg
+=============================================================================================
+
+
+127. Bikash Yadav:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 04:12:37 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzloe9FnzRxvOIMVfd4AaABAg
+     > Author Channel ID: UCR1Ihs7yE7s3nT6DtWpkDSg
+=============================================================================================
+
+
+128. manish bhanderi:  Yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyLuJZNzZ7-K6MyG3h4AaABAg
+     > Timestamp: Jul 09, 2023 @ 04:37:59 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz18OW2qIUxS75PooF4AaABAg
+     > Author Channel ID: UC6-le4wCf5zbrb-mcchT5IA
+=============================================================================================
+
+
+129. CodeWithRupam:  I want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzyw08S66sc2q0jHmV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 04:44:35 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwfFlcVVXGV8YFJzOV4AaABAg
+     > Author Channel ID: UCB8RByGGHtEd1yviIc7c6-g
+=============================================================================================
+
+
+130. Suyog Lokhande:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 05:07:33 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyRwrCheVZrPFDnfpF4AaABAg
+     > Author Channel ID: UC_ypbjQPO4CKAT0PIU6Urng
+=============================================================================================
+
+
+131. Vikash Gamerz:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 05:24:19 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxIW_iFrC2tKaBXC754AaABAg
+     > Author Channel ID: UCVG7DBcRbApfnj-5t78TxrQ
+=============================================================================================
+
+
+132. Bilal Jutt:  We want 100 days of web development❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwEyM_vuAth4frY6Th4AaABAg
+     > Timestamp: Jul 09, 2023 @ 05:32:08 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwzU9hiatUUjUt1d454AaABAg
+     > Author Channel ID: UCR3YOwV_sIER3UFJEC3GRPQ
+=============================================================================================
+
+
+133. sagar chauhan:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 05:47:17 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwHwsQjPjdXFFi_Pmt4AaABAg
+     > Author Channel ID: UC3O1MzBMsyxjyiNvDCe3_Lw
+=============================================================================================
+
+
+134. marvel_creater:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 09, 2023 @ 05:52:58 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugwk4hipD3eoPJjngyZ4AaABAg
+     > Author Channel ID: UCyMQ_tsqdBXoydmjspHu8IA
+=============================================================================================
+
+
+135. Madan Kumar:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 09, 2023 @ 06:07:55 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzsweih6lliE1q6IL54AaABAg
+     > Author Channel ID: UCci_Qkn4-O2tOqfj9rm4S-Q
+=============================================================================================
+
+
+136. Biswajit Mahato:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 09, 2023 @ 06:41:43 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw6llgSKUimjlz91Zx4AaABAg
+     > Author Channel ID: UCz8_BWtmXyUk3RnSEizOt-g
+=============================================================================================
+
+
+137. Krupal patel:  we want web devlopment course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzi3h5HvFpUfz4CN7d4AaABAg
+     > Timestamp: Jul 09, 2023 @ 09:00:52 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugwth25tqnglV9R4QmZ4AaABAg
+     > Author Channel ID: UC3XaETlMoyTciKcq2MQdfvA
+=============================================================================================
+
+
+138. Jayanta Sarkar:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 10, 2023 @ 01:03:03 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyt2mYlG15ht0QQygN4AaABAg
+     > Author Channel ID: UCzjEVNtTwrUYDEHIeIBZhaA
+=============================================================================================
+
+
+139. Sourabh Kush:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 01:07:23 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyejL3aT7lbwUoeRPZ4AaABAg
+     > Author Channel ID: UCPT7O_ns5pj85hDk9iNN6CQ
+=============================================================================================
+
+
+140. Muhammad Haroon:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 10, 2023 @ 01:31:46 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwttZ1mHksOkCraQah4AaABAg
+     > Author Channel ID: UCTynnuKwhHWH-02YjhUIB2Q
+=============================================================================================
+
+
+141. WeMadeCodingEasy:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 02:59:29 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwKkrHmj9Rlw8nA7Cl4AaABAg
+     > Author Channel ID: UCDHOenlH8bmXFxaDdqYNAhw
+=============================================================================================
+
+
+142. Rehan Baig:  Yes we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxUztjPEkJcaXVcfUd4AaABAg
+     > Timestamp: Jul 10, 2023 @ 04:39:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxCVoL9R5ceYwXxHcl4AaABAg
+     > Author Channel ID: UCb4JIUkANunJN77Honmk4QQ
+=============================================================================================
+
+
+143. saad ahmed:  yes sir we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwbBS7teln-iN7nBbx4AaABAg
+     > Timestamp: Jul 10, 2023 @ 10:34:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzicE78OCRf5ItReOx4AaABAg
+     > Author Channel ID: UCvsa0Hxdf_rNU_HaCcENePA
+=============================================================================================
+
+
+144. NIKHIL's ONLINE HUB:  Yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyLuJZNzZ7-K6MyG3h4AaABAg
+     > Timestamp: Jul 10, 2023 @ 10:42:53 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx4tjZXTLPUR34zTkh4AaABAg
+     > Author Channel ID: UCXjsSUAGqV6JMwyPUGTJ76Q
+=============================================================================================
+
+
+145. MITHLESH SINGH:  We need web development course from scratch to advanced
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz525fkH_HTSG53Ur94AaABAg
+     > Timestamp: Jul 10, 2023 @ 10:49:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzpLvmmBH8IBJ_rTNh4AaABAg
+     > Author Channel ID: UCIxFxCQKuiyqPW5eFKoxZwQ
+=============================================================================================
+
+
+146. Just love 😘:  Yes sir , we want a web development course from zero to fully advance
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugz8ciwD_PVZKbON0oh4AaABAg
+     > Timestamp: Jul 10, 2023 @ 12:11:35 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxOXBx-ApLznuVwGrV4AaABAg
+     > Author Channel ID: UCRxoonVi-yxz19Glnk2zi_Q
+=============================================================================================
+
+
+147. Fujel Gaming:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 10, 2023 @ 02:42:31 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwTUuF0rj0QSvzR3ch4AaABAg
+     > Author Channel ID: UCn8mw2cjeF0OVjEmy30M82Q
+=============================================================================================
+
+
+148. Prajwol Ramtel:  yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwroAXUEIDhIDzLi4l4AaABAg
+     > Timestamp: Jul 10, 2023 @ 02:52:07 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxoS2x0YS1ahlG08JZ4AaABAg
+     > Author Channel ID: UCnVBbempFmdd3OvoXithd5A
+=============================================================================================
+
+
+149. sujeet Kumar:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 03:33:04 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgycMw1eDsWlXCq6Uw94AaABAg
+     > Author Channel ID: UCf0Hjcy4tvXT-cOAZoSxt_A
+=============================================================================================
+
+
+150. RTH GAMING:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 03:34:59 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJCGz9bokxsmgPLEl4AaABAg
+     > Author Channel ID: UC9JwvCJfxG6vJolT97T_kEA
+=============================================================================================
+
+
+151. Nasir Hussain:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 04:07:07 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugw1xYgpDBNDSfEgqOp4AaABAg
+     > Author Channel ID: UC8IVlIGAz_oTeUX8pmwCCpg
+=============================================================================================
+
+
+152. Tejas:  We want web development ❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxh8P4UEe51oHoNJSp4AaABAg
+     > Timestamp: Jul 10, 2023 @ 04:38:52 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyGWNsSssHpQ2lWYeR4AaABAg
+     > Author Channel ID: UCeILyueBeV7oZQu_kN2daoQ
+=============================================================================================
+
+
+153. nuclear fusion:  yes sir we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwbBS7teln-iN7nBbx4AaABAg
+     > Timestamp: Jul 10, 2023 @ 05:31:26 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxFb4visY9wX5gemod4AaABAg
+     > Author Channel ID: UCP-ACTUNTatLXhrWHA9A_XA
+=============================================================================================
+
+
+154. Ahsan Ahmad:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 10, 2023 @ 06:32:12 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy3NInqCN11-AN89pd4AaABAg
+     > Author Channel ID: UC-5MhhhGJ9tLuaUaFC5FEEg
+=============================================================================================
+
+
+155. Nature God:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 10, 2023 @ 07:13:22 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzsDLu4Rh8aQQlu8mx4AaABAg
+     > Author Channel ID: UCsn_hLx97vWmssEtro8clQw
+=============================================================================================
+
+
+156. Muhammad Asif BS CS M2:  Yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxJUF80yulVbXcPymV4AaABAg
+     > Timestamp: Jul 10, 2023 @ 07:42:48 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy9re42qQlE6Rciw194AaABAg
+     > Author Channel ID: UCgAWo0fw4Oi0XbQaIVC0QQg
+=============================================================================================
+
+
+157. yeshwanthreddy challa:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 02:26:57 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzu5qiGdaXWklo0uC54AaABAg
+     > Author Channel ID: UCxOHg_zg0icOe1eL4gF9ipQ
+=============================================================================================
+
+
+158. Asif Shah:  Yes sir we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwBokoQCKXZ4zz8sQJ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 03:53:49 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy-beaRBc-ZZicklIZ4AaABAg
+     > Author Channel ID: UCqHbR05_PjrHaxPSbdrkacA
+=============================================================================================
+
+
+159. THEDremworld:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 11, 2023 @ 06:42:20 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyODkriDbo8psDNzz94AaABAg
+     > Author Channel ID: UCRrK2crksEu_7gXWy2PT7-w
+=============================================================================================
+
+
+160. THEDremworld:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 11, 2023 @ 06:42:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugyt5AYLEENzOJgUiFt4AaABAg
+     > Author Channel ID: UCRrK2crksEu_7gXWy2PT7-w
+=============================================================================================
+
+
+161. THEDremworld:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 11, 2023 @ 06:42:30 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyxrV_UcNfezEeZJdt4AaABAg
+     > Author Channel ID: UCRrK2crksEu_7gXWy2PT7-w
+=============================================================================================
+
+
+162. Saiyam Arora:  we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwwiXd6kNejc6iJPYF4AaABAg
+     > Timestamp: Jul 11, 2023 @ 07:04:02 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwHGnNSLwCtck2jzap4AaABAg
+     > Author Channel ID: UCrKoOdIs4NgYfg6VkpxTQdw
+=============================================================================================
+
+
+163. Sudipta Nahal:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 09:00:10 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzRy1ZLmZXUp62S8uV4AaABAg
+     > Author Channel ID: UCKm97syDcKvjcx-nianmTWA
+=============================================================================================
+
+
+164. Abdul Quddus:  Yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyLuJZNzZ7-K6MyG3h4AaABAg
+     > Timestamp: Jul 11, 2023 @ 09:03:52 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx_uln3QKw7OrjMa-94AaABAg
+     > Author Channel ID: UC47LJOWaiPBEQi9hnaNBrzA
+=============================================================================================
+
+
+165. TECHNICAL NISHAN 2.0:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 09:34:27 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzByFY34E2cd5mZ5LR4AaABAg
+     > Author Channel ID: UCeLzEjXbd74PP3I0LIQirfw
+=============================================================================================
+
+
+166. Lakshman Guru:  Yes we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxUztjPEkJcaXVcfUd4AaABAg
+     > Timestamp: Jul 11, 2023 @ 10:51:21 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx8tV_evSdVy7p_lC54AaABAg
+     > Author Channel ID: UCMRi5MxWC3hdAVMAU9RnoSg
+=============================================================================================
+
+
+167. ANAS KHAN:  We want Web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzZJOK5sEfaWdNRME94AaABAg
+     > Timestamp: Jul 11, 2023 @ 10:58:10 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx_sVlmlR-4pqe4JL54AaABAg
+     > Author Channel ID: UCQJMT9ixNlHhEYv5kuhIFFw
+=============================================================================================
+
+
+168. MOHAMMED NaVeD:  Yes we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxUztjPEkJcaXVcfUd4AaABAg
+     > Timestamp: Jul 11, 2023 @ 12:23:59 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzxpGctPMjHzwQEQW54AaABAg
+     > Author Channel ID: UC83yw2EvxWks-Jr2RioH6UQ
+=============================================================================================
+
+
+169. Wasim:  yes full stack web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwK_JeUgVp_c6KAtoN4AaABAg
+     > Timestamp: Jul 11, 2023 @ 01:17:42 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzhdWagcOOjLNk9DDF4AaABAg
+     > Author Channel ID: UConeY61xyYBe7N8Cs0exLPw
+=============================================================================================
+
+
+170. OM_athematics:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 02:28:15 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwKr43RuS_OjyeYEcN4AaABAg
+     > Author Channel ID: UCBMbd34TJcufNd3PmdtdW8Q
+=============================================================================================
+
+
+171. × RAMZAN:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 02:43:49 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyO_FvbcLYVPlfnGVB4AaABAg
+     > Author Channel ID: UCnsQZbY7N7w7ONxUcbOaC6Q
+=============================================================================================
+
+
+172. Sounak Nandi:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 11, 2023 @ 03:52:51 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwLoxFNibkJ3VuwMIl4AaABAg
+     > Author Channel ID: UC2D83CEnwYrhJIPYNt21S1w
+=============================================================================================
+
+
+173. Sakshi Verma:  Yes, we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxcmmeoyi3GuqP32Yl4AaABAg
+     > Timestamp: Jul 11, 2023 @ 04:52:46 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwgIBeHvBFrUAcW35N4AaABAg
+     > Author Channel ID: UCXvcCzU_tGRp_Zg6o328XuQ
+=============================================================================================
+
+
+174. NODYGAMINGYT:  yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwroAXUEIDhIDzLi4l4AaABAg
+     > Timestamp: Jul 11, 2023 @ 05:45:39 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwqKR9h8C9i_k5bSQN4AaABAg
+     > Author Channel ID: UC3rXqR4iSYeWg9kRvouSmVA
+=============================================================================================
+
+
+175. Mujahidul Islam Shaikh:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 11, 2023 @ 07:19:16 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugzen_cZscbLY4XtaBx4AaABAg
+     > Author Channel ID: UCRNDVtTURb6XNN99vogtI3Q
+=============================================================================================
+
+
+176. Ajay Shekhawat:  Yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyLuJZNzZ7-K6MyG3h4AaABAg
+     > Timestamp: Jul 11, 2023 @ 08:04:09 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwDHJcaiXiwqMWy1Kh4AaABAg
+     > Author Channel ID: UCKCaU-IgTe9zv00gttOUajg
+=============================================================================================
+
+
+177. CRAZY INDIAN:  yes we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwroAXUEIDhIDzLi4l4AaABAg
+     > Timestamp: Jul 12, 2023 @ 02:44:32 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgysDIWxdo3Y0-ybV2Z4AaABAg
+     > Author Channel ID: UCgBEI4evQ_6ZOKJMxoG3Pfw
+=============================================================================================
+
+
+178. Suraj Rajput:  Yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyLuJZNzZ7-K6MyG3h4AaABAg
+     > Timestamp: Jul 12, 2023 @ 03:58:12 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxcEJY5EpOvUI7PByx4AaABAg
+     > Author Channel ID: UCkMqd9pUgkmEaWiHrt1UuKQ
+=============================================================================================
+
+
+179. Surajkashyap4u :  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 12, 2023 @ 05:10:46 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzVj4OnmrWbOYa81Jp4AaABAg
+     > Author Channel ID: UCknA5LWSLI8q3t_Pijobyhg
+=============================================================================================
+
+
+180. Im A Introvert  :):  yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwJGtwiU8yy95uf2K54AaABAg
+     > Timestamp: Jul 12, 2023 @ 08:46:27 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyW6wtFQhgbBfqttOV4AaABAg
+     > Author Channel ID: UCd5KSzqTOl8Btp66Mtf53Yg
+=============================================================================================
+
+
+181. Amzon Vedio:  we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwwiXd6kNejc6iJPYF4AaABAg
+     > Timestamp: Jul 12, 2023 @ 08:58:02 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxqYOIIK3EhP5IB9dt4AaABAg
+     > Author Channel ID: UCa1MJZLeZXlpUla79Be-_lg
+=============================================================================================
+
+
+182. Aditya Kumar:  Yes sir we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwBokoQCKXZ4zz8sQJ4AaABAg
+     > Timestamp: Jul 12, 2023 @ 09:09:58 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyzofOryVaiWGDjs0l4AaABAg
+     > Author Channel ID: UCJqmsKtV139_d5mffrI9zdQ
+=============================================================================================
+
+
+183. mohit verma:  We want Web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzZJOK5sEfaWdNRME94AaABAg
+     > Timestamp: Jul 12, 2023 @ 09:29:10 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyYTQdTMGXSyRuO5Jt4AaABAg
+     > Author Channel ID: UCG_lB-ECwetUUqVAoUC2-OA
+=============================================================================================
+
+
+184. Aditya chaitanya:  Yes sir we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxXO9coDZ6pdF8sn8x4AaABAg
+     > Timestamp: Jul 12, 2023 @ 09:30:59 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzoOFOKzEUHopwkPPl4AaABAg
+     > Author Channel ID: UCl3rZQ-JC2WYZCwdPR2cNUw
+=============================================================================================
+
+
+185. 54 Bhargav Panchasara:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 12, 2023 @ 09:32:39 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugx9g775WrwCg4rSOi14AaABAg
+     > Author Channel ID: UC-8ni99t6x15UoH-Y9pW-_Q
+=============================================================================================
+
+
+186. Darsh Bothra:  We want web development ❤
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxh8P4UEe51oHoNJSp4AaABAg
+     > Timestamp: Jul 12, 2023 @ 11:08:12 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwrbzwdZFdeSWLB3kZ4AaABAg
+     > Author Channel ID: UCL_ZQuxVZ1NGPNmeKu5Kv7A
+=============================================================================================
+
+
+187. Artist 💫:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 12, 2023 @ 12:46:25 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyNkZOHhOs4xY3dQeZ4AaABAg
+     > Author Channel ID: UCfk4ZWNM5Xq5uZlyF3e9xZg
+=============================================================================================
+
+
+188. Amritpal Singh:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 12, 2023 @ 02:20:46 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzY6fT_LERE35Kdgvx4AaABAg
+     > Author Channel ID: UCun5kMcf0CAqlBR5BMov_fA
+=============================================================================================
+
+
+189. Jyoti gautam:  Yes make web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy1xKztSivIETnUgEh4AaABAg
+     > Timestamp: Jul 12, 2023 @ 02:29:18 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwvRff0pHF7X2WDHQN4AaABAg
+     > Author Channel ID: UC2WPOZd4taIcGLK2PJsrc-g
+=============================================================================================
+
+
+190. 005_Prabhunath Shah:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 12, 2023 @ 02:30:51 PM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxG-qAhkL8HycA3sg14AaABAg
+     > Author Channel ID: UCQxNNZHNuQG6LxDf30IbPBg
+=============================================================================================
+
+
+191. JATIN KUMAR:  Yes sir , we want a web development course from zero to fully advance Sir pls do not skip any small or big thing
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy829RRuGgU56dah5F4AaABAg
+     > Timestamp: Jul 13, 2023 @ 02:39:37 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgzfjN1DwPpey3MMYVZ4AaABAg
+     > Author Channel ID: UCSKsGINJNZ-ItxEWA25zrNA
+=============================================================================================
+
+
+192. Aditya Sharma:  yes we want web development
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwJGtwiU8yy95uf2K54AaABAg
+     > Timestamp: Jul 13, 2023 @ 02:43:00 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgwnF19961bxr08sZG54AaABAg
+     > Author Channel ID: UC1--3VeUnvrEvpMvMrbm7bg
+=============================================================================================
+
+
+193. 25 No. Jogduar Gayen Gaon Awc Kaliapani:  We want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgySyHS7y-5G8DLdgDZ4AaABAg
+     > Timestamp: Jul 13, 2023 @ 03:29:22 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxMJjAclOKfiFcYUz54AaABAg
+     > Author Channel ID: UC_X7Op2jrTt2WBWR8mC-zHA
+=============================================================================================
+
+
+194. minahil saba:  we want web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugxf5mb-SbPaNGlZ9zt4AaABAg
+     > Timestamp: Jul 13, 2023 @ 03:37:07 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgypGS8k7WTivtFTBa54AaABAg
+     > Author Channel ID: UCp5O3qYcggNO3StWgNYNTBQ
+=============================================================================================
+
+
+195. Vignyan Goud:  Yes we want Web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgylAxetvMEd8cz_LL54AaABAg
+     > Timestamp: Jul 13, 2023 @ 03:38:46 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgyCn3JmYhljD1A2ED54AaABAg
+     > Author Channel ID: UCVCvm14fqkCfQCuirI246ww
+=============================================================================================
+
+
+196. we learn:  Yes we need web development course
+---------------------------------------------------------------------------------------------
+     > Reason: Repost
+         >> Original Comment ID: https://www.youtube.com/watch?v=H585GHGI6rA&lc=UgxUztjPEkJcaXVcfUd4AaABAg
+     > Timestamp: Jul 13, 2023 @ 04:27:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=H585GHGI6rA&lc=Ugy0FG5ws9TdtOUT0M94AaABAg
+     > Author Channel ID: UCthgCoiVyIC0xFfqW2PKkcQ
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+====================  NOTE:  Possible false positives marked with * Check them extra well! ==================== 
+ 1.  [x11]  UCWeEVgmZqNhEoSkyfjS4kZg | Champ Abhi          : https://youtube.com/shorts/vP08BGdN9ck?feature=share                              
+ 2.  [x1]   UCDjDb0iI_W9YyekotZ-3k7w | GB CREATION 💕💯      : Thanks ❤                                                                          
+ 3.  [x1]   UCrhYJCUyy2_WUPN2kgTNhtQ | AMIT 07😙            : https://youtu.be/gwWKnnCMQ5c                                                      
+ 4.  [x1]   UCtrzEN3yYaRJI9vKbqnbntg | CodeSaif            : like for github tutorial 👇                                                        
+ 5.  [x1]   UC5t568WXtK-G__5fc8GjSMQ | Vishvas Solanki 🖤   : Code with harry is Hacker ❤                                                       
+ 6.  [x1]   UC1wh7h-jSGFwISFaEuFM7kA | Shebz               : @CodeWithHarry Harry Bhai... mai post graduate hu  computer me ...lekin kafi ye...
+ 7.  [x1]   UCE8WH00HeGnlTUauwyhPDSA | kushal guru         : https://youtu.be/PgimR9PELAA                                                      
+ 8.  [x1]   UC84P9dgX9AtDeeTIUohVCkA | RDX                 : ek baar mei most common category.. middle class families ke sare bachhon ke hea...
+ 9.  [x1]   UCABgBGVC0wKmdXHvVc99eBw | Yogesh Wati         : https://youtu.be/_6IkTS94ka8                                                      
+*10. [x1]   UCVJ6892l7LUwozfnXaW0aYQ | Anik B              : Harry sir, Love this video but I am also following ur android development cours...
+
+-------------------- Non-Matched Commenters, but who wrote many similar comments --------------------
+---------------------- ( Similarity Threshold: 90%  |  Minimum Duplicates: 8 ) ----------------------
+ 11. [x22]  UCnKKz0zIR4bPCXiGsJbCPwg | Full X Movie        : please made a web development course                                              
+ 12. [x16]  UCzVGeqLhKc_o9WXNZv_QUgw | only comady         : bhi ak youtube jasi like wabsite banany ka course daly                            
+ 13. [x13]  UCY70ChFGe9xC7XDSWcOB_aA | quote               : Bhayya me abhi 4th year me hoo cse btech ke aur mujhe abhi tk kuch bhi nhi aata...
+ 14. [x11]  UCZj9bzqQHHDhWch8sNTf1jw | Abhishek Rathi      : We want web development                                                           
+ 15. [x9]   UCbFiRuQTzaa06VlH3-E558A | Asif Jubair         : we want a web development course                                                  
+ 16. [x8]   UC9U8yKP4hXdhFr7-gRBCQag | Piyush Kumar        : Macmini m2 kaisa hoga lena ? For college students                                 
+
+-------------------- Non-Matched Commenters, But Who Reposted a Previous Comment --------------------
+------------------------ ( Similarity Threshold: 100%  |  Minimum Length: 25 ) ------------------------
+ 17. [x4]   UCWEAPDSXQjhUodO883C3Tng | KKshort 1M          : We want 100 days of web development❤                                              
+ 18. [x3]   UCRrK2crksEu_7gXWy2PT7-w | THEDremworld        : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 19. [x1]   UCthgCoiVyIC0xFfqW2PKkcQ | we learn            : Yes we need web development course                                                
+ 20. [x1]   UCVCvm14fqkCfQCuirI246ww | Vignyan Goud        : Yes we want Web development course                                                
+ 21. [x1]   UCp5O3qYcggNO3StWgNYNTBQ | minahil saba        : we want web development course                                                    
+ 22. [x1]   UC_X7Op2jrTt2WBWR8mC-zHA | 25 No. Jogduar Ga...: We want web development course                                                    
+ 23. [x1]   UC1--3VeUnvrEvpMvMrbm7bg | Aditya Sharma       : yes we want web development                                                       
+ 24. [x1]   UCSKsGINJNZ-ItxEWA25zrNA | JATIN KUMAR         : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 25. [x1]   UCQxNNZHNuQG6LxDf30IbPBg | 005_Prabhunath Shah : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 26. [x1]   UC2WPOZd4taIcGLK2PJsrc-g | Jyoti gautam        : Yes make web development course                                                   
+ 27. [x1]   UCun5kMcf0CAqlBR5BMov_fA | Amritpal Singh      : We want web development course                                                    
+ 28. [x1]   UCfk4ZWNM5Xq5uZlyF3e9xZg | Artist 💫            : We want web development course                                                    
+ 29. [x1]   UCL_ZQuxVZ1NGPNmeKu5Kv7A | Darsh Bothra        : We want web development ❤                                                         
+ 30. [x1]   UC-8ni99t6x15UoH-Y9pW-_Q | 54 Bhargav Pancha...: We want web development course                                                    
+ 31. [x1]   UCl3rZQ-JC2WYZCwdPR2cNUw | Aditya chaitanya    : Yes sir we want web development                                                   
+ 32. [x1]   UCG_lB-ECwetUUqVAoUC2-OA | mohit verma         : We want Web development course                                                    
+ 33. [x1]   UCJqmsKtV139_d5mffrI9zdQ | Aditya Kumar        : Yes sir we want web development course                                            
+ 34. [x1]   UCa1MJZLeZXlpUla79Be-_lg | Amzon Vedio         : we need web development course                                                    
+ 35. [x1]   UCd5KSzqTOl8Btp66Mtf53Yg | Im A Introvert  :)  : yes we want web development                                                       
+ 36. [x1]   UCknA5LWSLI8q3t_Pijobyhg | Surajkashyap4u      : We want web development course                                                    
+ 37. [x1]   UCkMqd9pUgkmEaWiHrt1UuKQ | Suraj Rajput        : Yes we want web development                                                       
+ 38. [x1]   UCgBEI4evQ_6ZOKJMxoG3Pfw | CRAZY INDIAN        : yes we want web development course                                                
+ 39. [x1]   UCKCaU-IgTe9zv00gttOUajg | Ajay Shekhawat      : Yes we want web development                                                       
+ 40. [x1]   UCRNDVtTURb6XNN99vogtI3Q | Mujahidul Islam S...: Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 41. [x1]   UC3rXqR4iSYeWg9kRvouSmVA | NODYGAMINGYT        : yes we want web development course                                                
+ 42. [x1]   UCXvcCzU_tGRp_Zg6o328XuQ | Sakshi Verma        : Yes, we want web development course                                               
+ 43. [x1]   UC2D83CEnwYrhJIPYNt21S1w | Sounak Nandi        : We want web development course                                                    
+ 44. [x1]   UCnsQZbY7N7w7ONxUcbOaC6Q | × RAMZAN            : We want web development course                                                    
+ 45. [x1]   UCBMbd34TJcufNd3PmdtdW8Q | OM_athematics       : We want web development course                                                    
+ 46. [x1]   UConeY61xyYBe7N8Cs0exLPw | Wasim               : yes full stack web development course                                             
+ 47. [x1]   UC83yw2EvxWks-Jr2RioH6UQ | MOHAMMED NaVeD      : Yes we need web development course                                                
+ 48. [x1]   UCQJMT9ixNlHhEYv5kuhIFFw | ANAS KHAN           : We want Web development course                                                    
+ 49. [x1]   UCMRi5MxWC3hdAVMAU9RnoSg | Lakshman Guru       : Yes we need web development course                                                
+ 50. [x1]   UCeLzEjXbd74PP3I0LIQirfw | TECHNICAL NISHAN 2.0: We want web development course                                                    
+ 51. [x1]   UC47LJOWaiPBEQi9hnaNBrzA | Abdul Quddus        : Yes we want web development                                                       
+ 52. [x1]   UCKm97syDcKvjcx-nianmTWA | Sudipta Nahal       : We want web development course                                                    
+ 53. [x1]   UCrKoOdIs4NgYfg6VkpxTQdw | Saiyam Arora        : we need web development course                                                    
+ 54. [x1]   UCqHbR05_PjrHaxPSbdrkacA | Asif Shah           : Yes sir we want web development course                                            
+ 55. [x1]   UCxOHg_zg0icOe1eL4gF9ipQ | yeshwanthreddy ch...: We want web development course                                                    
+ 56. [x1]   UCgAWo0fw4Oi0XbQaIVC0QQg | Muhammad Asif BS ...: Yes we want web development course                                                
+ 57. [x1]   UCsn_hLx97vWmssEtro8clQw | Nature God          : We want web development course                                                    
+ 58. [x1]   UC-5MhhhGJ9tLuaUaFC5FEEg | Ahsan Ahmad         : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 59. [x1]   UCP-ACTUNTatLXhrWHA9A_XA | nuclear fusion      : yes sir we want web development course                                            
+ 60. [x1]   UCeILyueBeV7oZQu_kN2daoQ | Tejas               : We want web development ❤                                                         
+ 61. [x1]   UC8IVlIGAz_oTeUX8pmwCCpg | Nasir Hussain       : Yes we want web development course                                                
+ 62. [x1]   UC9JwvCJfxG6vJolT97T_kEA | RTH GAMING          : Yes we want web development course                                                
+ 63. [x1]   UCf0Hjcy4tvXT-cOAZoSxt_A | sujeet Kumar        : Yes we want web development course                                                
+ 64. [x1]   UCnVBbempFmdd3OvoXithd5A | Prajwol Ramtel      : yes we want web development course                                                
+ 65. [x1]   UCn8mw2cjeF0OVjEmy30M82Q | Fujel Gaming        : We want web development course                                                    
+ 66. [x1]   UCRxoonVi-yxz19Glnk2zi_Q | Just love 😘         : Yes sir , we want a web development course from zero to fully advance             
+ 67. [x1]   UCIxFxCQKuiyqPW5eFKoxZwQ | MITHLESH SINGH      : We need web development course from scratch to advanced                           
+ 68. [x1]   UCXjsSUAGqV6JMwyPUGTJ76Q | NIKHIL's ONLINE HUB : Yes we want web development                                                       
+ 69. [x1]   UCvsa0Hxdf_rNU_HaCcENePA | saad ahmed          : yes sir we want web development course                                            
+ 70. [x1]   UCb4JIUkANunJN77Honmk4QQ | Rehan Baig          : Yes we need web development course                                                
+ 71. [x1]   UCDHOenlH8bmXFxaDdqYNAhw | WeMadeCodingEasy    : Yes we want web development course                                                
+ 72. [x1]   UCTynnuKwhHWH-02YjhUIB2Q | Muhammad Haroon     : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 73. [x1]   UCPT7O_ns5pj85hDk9iNN6CQ | Sourabh Kush        : Yes we want web development course                                                
+ 74. [x1]   UCzjEVNtTwrUYDEHIeIBZhaA | Jayanta Sarkar      : We want web development course                                                    
+ 75. [x1]   UC3XaETlMoyTciKcq2MQdfvA | Krupal patel        : we want web devlopment course                                                     
+ 76. [x1]   UCz8_BWtmXyUk3RnSEizOt-g | Biswajit Mahato     : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 77. [x1]   UCci_Qkn4-O2tOqfj9rm4S-Q | Madan Kumar         : Yes we want web development course                                                
+ 78. [x1]   UCyMQ_tsqdBXoydmjspHu8IA | marvel_creater      : We want web development course                                                    
+ 79. [x1]   UC3O1MzBMsyxjyiNvDCe3_Lw | sagar chauhan       : We want web development course                                                    
+ 80. [x1]   UCR3YOwV_sIER3UFJEC3GRPQ | Bilal Jutt          : We want 100 days of web development❤                                              
+ 81. [x1]   UCVG7DBcRbApfnj-5t78TxrQ | Vikash Gamerz       : Yes we want web development course                                                
+ 82. [x1]   UC_ypbjQPO4CKAT0PIU6Urng | Suyog Lokhande      : Yes we want web development course                                                
+ 83. [x1]   UCB8RByGGHtEd1yviIc7c6-g | CodeWithRupam       : I want web development course                                                     
+ 84. [x1]   UC6-le4wCf5zbrb-mcchT5IA | manish bhanderi     : Yes we want web development                                                       
+ 85. [x1]   UCR1Ihs7yE7s3nT6DtWpkDSg | Bikash Yadav        : We want web development course                                                    
+ 86. [x1]   UCevV6gW5qKqsqttvXaPfFYg | Hamd-o-Naat TV      : We want web development course                                                    
+ 87. [x1]   UCZgeWHjTBkvzSggeSSDRpJw | Sikka Loot          : We want web development course                                                    
+ 88. [x1]   UCBBs7FpY6qPUeKSTreFKoJg | Abdullah Rizwi      : we want web development course                                                    
+ 89. [x1]   UCF3mrcAzWRCLkMSDJGkGCYA | Sayan mondal        : we want web development course                                                    
+ 90. [x1]   UCGrAGtdg3DaO_WCE1s1qQQg | Garvit Gakhreja     : Yes Harry Bhai we want web development course                                     
+ 91. [x1]   UCU3KGcy64ASZxa4h0wMn6gA | Mohd Saif           : Yes sir , we want a web development course from zero to fully advance             
+ 92. [x1]   UCk_zsDqPOpdPOKiesm_vRPA | Yash                : We want web development course                                                    
+ 93. [x1]   UCvL35BCW0QFGtAqtKWMVG-A | GR Creation 02      : We want web development course                                                    
+ 94. [x1]   UCAkEWE6g1z5dQAbXSL8DkFw | Good vibe           : We want web development course                                                    
+ 95. [x1]   UC77BSBOMrk42qIz-h0rUWEw | Abhijit Das         : Yes we want web development course                                                
+ 96. [x1]   UCyLGrc69st4ZyNfvL1ul8yA | Code Mastery        : We want 100 days of web development❤                                              
+ 97. [x1]   UC5x1WG9s_Fj-29F1yYNfvYA | Pranav Kulkarni     : Yes sir , we want a web development course from zero to fully advance Sir pls d...
+ 98. [x1]   UCZSqWSQYecAbET0gLbvUbPg | EfFecTS oF Mp3      : Yes we want web development course                                                
+ 99. [x1]   UCNIp5dyfO6x09kCks9DzcvA | Rizwan ismail       : Web development course please                                                     
+ 100. [x1]   UCCigCL6zN4T9IwqqozC0FfA | Jayakanth           : We need web development course                                                    
+ 101. [x1]   UCI6e51cRu4QOhK-pFZhhs2g | Kishan              : Yes we want web development course                                                
+ 102. [x1]   UCoL2CyLRdeSMcXFImWkb02g | Anurag Sharma       : We want web development course                                                    
+ 103. [x1]   UCDM5ZkYWT2Sfb9_BriziU-A | Create DOT          : We want web development ❤                                                         
+ 104. [x1]   UCcqeh2NchNJM2Mb6FmPUDrA | Gtibra Mail         : We want web development course                                                    
+ 105. [x1]   UCQcHuH76VL3wt0getTWTKeg | Himani              : We want web development course                                                    
+ 106. [x1]   UCDGKGJL6uGMFz8P7wzdpbBw | Kumail Tariq        : We need web development course                                                    
+ 107. [x1]   UCDYfNBsJ1okLaDS2wm5iFBw | Safa Aslam          : We want web development course                                                    
+ 108. [x1]   UCLr38ruE-_KHzJJwDqfbOhg | Animated gamor      : We want 100 Days of DSA in C++ or Web Dev or Android Dev ❤❤                       

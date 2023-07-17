@@ -1,0 +1,64 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: bs, not
+
+Number of Matched Comments Found: 4
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ UgzrB8jjKFyuCP9NcJx4AaABAg, UgzwISzxQ85vJj0gHfV4AaABAg, UgytWYBDLSLKCoIwlUF4AaABAg, UgymKki5PwC7WHsn4zx4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  Not not not
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jun 29, 2023 @ 03:32:28 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgzrB8jjKFyuCP9NcJx4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+2. Parth Brahmbhatt:  Idiotic video not good
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jun 29, 2023 @ 03:32:19 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgzwISzxQ85vJj0gHfV4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+3. Parth Brahmbhatt:  Not good shit
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jun 29, 2023 @ 03:32:02 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgytWYBDLSLKCoIwlUF4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+4. Parth Brahmbhatt:  this is bs thhhhh not good
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jun 29, 2023 @ 02:48:55 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgymKki5PwC7WHsn4zx4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x4]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : Not not not                                                                       
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

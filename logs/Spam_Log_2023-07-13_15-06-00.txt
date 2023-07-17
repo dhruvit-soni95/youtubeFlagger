@@ -1,0 +1,52 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: 7vPnxh_hs50
+
+Searched in Comment Text: stupid
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found (Excluded Comments Removed): 
+[ UgxITbpdfrOn3BkYmTh4AaABAg, Ugz-y--y8JRhFFW_s6R4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  This is fucking stupid.
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 13, 2023 @ 04:49:39 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgxITbpdfrOn3BkYmTh4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== All Non-matched Comments by Authors Above ========================
+============================================================================================
+
+2. Parth Brahmbhatt:  abc
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Timestamp: Jul 13, 2023 @ 04:54:16 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=Ugz-y--y8JRhFFW_s6R4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : This is fucking stupid.                                                           
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

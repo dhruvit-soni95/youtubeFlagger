@@ -1,0 +1,56 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: disliked, not good, very stupid video, not liked, not liked, arse, arsehead, arsehole, ass, asshole, bastard, bitch, bloody, bollocks, brotherfucker, bugger, bullshit, childfucker, cock, cocksucker, crap, cunt, dick, dickhead, dyke, fatherfucker, frigger, goddamn, godsdamn, hell, holy shit, horseshit, in shit, jesus christ, jesus fuck, jesus harold, jesus wept, kike, motherfucker, nigga, nigra, piss, prick, pussy, shit, shit ass, shite, sisterfucker, sister fucker, slut, son of a whore, whore, son of a bitch, spastic, sweet jesus, turd, twat, wanker, asshole, ass hole, bloody oath, fuck, fucking, ~, `, !, @, #, $, %, ^, &, *, <, /, |, +
+
+Number of Matched Comments Found: 3
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ UgyOx6rdvO5-38kUd1p4AaABAg, UgzdFVgm0L3iwP9pNmh4AaABAg, UgwohzVu8Jnn3Ut8Sp54AaABAg ] 
+
+
+1. deep patel:  Disliked
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:11:49 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgyOx6rdvO5-38kUd1p4AaABAg
+     > Author Channel ID: UC4tPtdRI4eW550iaDjtj1gg
+=============================================================================================
+
+
+2. Parth Brahmbhatt:  Not good
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:03:28 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgzdFVgm0L3iwP9pNmh4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+3. Parth Brahmbhatt:  Very stupid video
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:00:42 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgwohzVu8Jnn3Ut8Sp54AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x2]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : Not good                                                                          
+ 2.  [x1]   UC4tPtdRI4eW550iaDjtj1gg | deep patel          : Disliked                                                                          
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

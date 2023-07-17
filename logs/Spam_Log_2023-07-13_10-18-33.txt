@@ -1,0 +1,62 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Searched in Comment Text: this is fucking stupid
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found (Excluded Comments Removed): 
+[ UgwAwJBxDn2uOICE8ql4AaABAg, UgwTMvVwxDF1PnQy_PF4AaABAg, UgxcXkV46BNMeuVQSkN4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  this is fucking stupid
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Video: This is my First
+     > Timestamp: Jul 13, 2023 @ 04:04:09 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgwAwJBxDn2uOICE8ql4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== All Non-matched Comments by Authors Above ========================
+============================================================================================
+
+2. Parth Brahmbhatt:  bullshit
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Video: This is my First
+     > Timestamp: Jul 13, 2023 @ 04:08:26 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgwTMvVwxDF1PnQy_PF4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+3. Parth Brahmbhatt:  stupido trio
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Video: This is my First
+     > Timestamp: Jul 13, 2023 @ 04:01:38 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgxcXkV46BNMeuVQSkN4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : this is fucking stupid                                                            
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

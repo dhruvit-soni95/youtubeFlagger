@@ -1,0 +1,81 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: 7vPnxh_hs50
+
+Searched in Comment Text: bloody, not awesome, not good, arse, arsehead, arsehole, ass, asshole, bastard, bitch, bloody, bollocks, brotherfucker, bugger, bullshit, childfucker, cock, cocksucker, crap, cunt, dick, dickhead, dyke, fatherfucker, frigger, goddamn, godsdamn, hell, holy shit, horseshit, in shit, jesus christ, jesus fuck, jesus harold, jesus wept, kike, motherfucker, nigga, nigra, piss, prick, pussy, shit, shit ass, shite, sisterfucker, sister fucker, slut, son of a whore, whore, son of a bitch, spastic, sweet jesus, turd, twat, wanker, asshole, ass hole, bloody oath, fuck, fucking, ~, `, !, @, #, $, %, ^, &, *, <, /, |, +
+
+Number of Matched Comments Found: 4
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found (Excluded Comments Removed): 
+[ UgxTlpqZBu9mfgi5Mn54AaABAg, UgzdVbkT_bk9ncvyXsx4AaABAg, UgzI1zygijII6VWlHMR4AaABAg, UgwCWucRu5xmSyI_qYd4AaABAg, UgwekYdKRR70CcUgd2h4AaABAg ] 
+
+
+1. deep patel:  bloody
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:09:14 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgxTlpqZBu9mfgi5Mn54AaABAg
+     > Author Channel ID: UC4tPtdRI4eW550iaDjtj1gg
+=============================================================================================
+
+
+2. deep patel:  Not Awesome
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:07:59 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgzdVbkT_bk9ncvyXsx4AaABAg
+     > Author Channel ID: UC4tPtdRI4eW550iaDjtj1gg
+=============================================================================================
+
+
+3. Parth Brahmbhatt:  Not good
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:01:45 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgzI1zygijII6VWlHMR4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+4. Parth Brahmbhatt:  \|.1`2`~2^&&*#$|}
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 13, 2023 @ 08:29:34 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgwCWucRu5xmSyI_qYd4AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== All Non-matched Comments by Authors Above ========================
+============================================================================================
+
+5. Parth Brahmbhatt:  Fcukin
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Timestamp: Jul 14, 2023 @ 03:01:36 AM
+     > Direct Link: https://www.youtube.com/watch?v=7vPnxh_hs50&lc=UgwekYdKRR70CcUgd2h4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x2]   UC4tPtdRI4eW550iaDjtj1gg | deep patel          : bloody                                                                            
+ 2.  [x1]   UCl1fJPBHiZp7pj3H44IDjTg | Parth Brahmbhatt    : \|.12~2&&*#$|}                                                                    
+ 3.  [x1]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : Not good                                                                          
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

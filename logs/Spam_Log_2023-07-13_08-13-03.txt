@@ -1,0 +1,37 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: hh
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ UgwSBbL5r6EhVMVFOXh4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  hh
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 13, 2023 @ 02:42:17 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgwSBbL5r6EhVMVFOXh4AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCl1fJPBHiZp7pj3H44IDjTg | Parth Brahmbhatt    : hh                                                                                
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

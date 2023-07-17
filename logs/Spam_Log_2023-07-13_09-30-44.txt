@@ -1,0 +1,52 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: stupido uno
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found (Excluded Comments Removed): 
+[ UgyZAooFTgzqDVrrWjp4AaABAg, Ugy8FM4JbQOudhVTsWR4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  stupido uno
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 13, 2023 @ 03:59:32 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgyZAooFTgzqDVrrWjp4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== All Non-matched Comments by Authors Above ========================
+============================================================================================
+
+2. Parth Brahmbhatt:  stupido duo
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Timestamp: Jul 13, 2023 @ 04:00:39 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=Ugy8FM4JbQOudhVTsWR4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : stupido uno                                                                       
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

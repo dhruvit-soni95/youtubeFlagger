@@ -1,0 +1,55 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: fuck, fuck it, not awesome, not liked, not liked, arse, arsehead, arsehole, ass, asshole, bastard, bitch, bloody, bollocks, brotherfucker, bugger, bullshit, childfucker, cock, cocksucker, crap, cunt, dick, dickhead, dyke, fatherfucker, frigger, goddamn, godsdamn, hell, holy shit, horseshit, in shit, jesus christ, jesus fuck, jesus harold, jesus wept, kike, motherfucker, nigga, nigra, piss, prick, pussy, shit, shit ass, shite, sisterfucker, sister fucker, slut, son of a whore, whore, son of a bitch, spastic, sweet jesus, turd, twat, wanker, asshole, ass hole, bloody oath, fuck, fucking, ~, `, !, @, #, $, %, ^, &, *, <, /, |, +
+
+Number of Matched Comments Found: 3
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ UgyB9-L_v-btwD8yCpd4AaABAg, Ugzbys8cPNEStqRaCu94AaABAg, Ugyuhg0jEdoCr6j4rtt4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  FUCK
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:47:59 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgyB9-L_v-btwD8yCpd4AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+2. Parth Brahmbhatt:  FUCK IT
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:47:46 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=Ugzbys8cPNEStqRaCu94AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+3. Parth Brahmbhatt:  not awesome
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 14, 2023 @ 03:47:36 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=Ugyuhg0jEdoCr6j4rtt4AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x3]   UCl1fJPBHiZp7pj3H44IDjTg | Parth Brahmbhatt    : FUCK                                                                              
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

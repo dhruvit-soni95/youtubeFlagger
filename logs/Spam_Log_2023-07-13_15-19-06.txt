@@ -1,0 +1,37 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: fuck, stupid, not awesome, not liked, bs, flop, super flop, abc
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ Ugzc4B_KgG-m-nmAhQd4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  abc xyx 12 13 a a b
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 13, 2023 @ 04:55:21 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=Ugzc4B_KgG-m-nmAhQd4AaABAg
+     > Author Channel ID: UCo6MBO-Yn3p2JjteeJ5UEpA
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCo6MBO-Yn3p2JjteeJ5UEpA | Parth Brahmbhatt    : abc xyx 12 13 a a b                                                               
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

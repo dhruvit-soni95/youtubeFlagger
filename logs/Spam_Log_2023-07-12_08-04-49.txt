@@ -1,0 +1,36 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Searched in Comment Text: please remove this
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found: 
+[ UgweqVg4gBbXP7u0dHN4AaABAg ] 
+
+
+1. Parth Brahmbhatt:  Please Remove This
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Video: This is my First
+     > Timestamp: Jul 12, 2023 @ 02:33:47 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgweqVg4gBbXP7u0dHN4AaABAg
+     > Author Channel ID: UCl1fJPBHiZp7pj3H44IDjTg
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UCl1fJPBHiZp7pj3H44IDjTg | Parth Brahmbhatt    : Please Remove This                                                                
+
+
+Spammers Banned: False
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+

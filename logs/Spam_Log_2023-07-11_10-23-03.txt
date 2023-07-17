@@ -1,0 +1,52 @@
+----------- YouTube Spammer Purge Log File -----------
+
+Video(s) or Post(s) Scanned: jNfAdJfwSUA
+
+Searched in Comment Text: not liked
+
+Number of Matched Comments Found: 1
+
+Number of Spam Bot Threads Found: 0
+
+Number of Non-Matched, but Duplicate Comments Found: 0
+
+Number of Non-Matched, but Stolen / Reposted Comments Found: 0
+
+IDs of Matched Comments Found (Excluded Comments Removed): 
+[ UgzmGsEkNKbj6OM_St14AaABAg, Ugwc6zG7hUvObEuk3XR4AaABAg ] 
+
+
+1. deep patel:  Not Liked
+---------------------------------------------------------------------------------------------
+     > Reason: Filter Match
+     > Timestamp: Jul 11, 2023 @ 04:43:44 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=UgzmGsEkNKbj6OM_St14AaABAg
+     > Author Channel ID: UC4tPtdRI4eW550iaDjtj1gg
+=============================================================================================
+
+
+
+
+============================================================================================
+======================== All Non-matched Comments by Authors Above ========================
+============================================================================================
+
+2. deep patel:  Not Awesome
+---------------------------------------------------------------------------------------------
+     > Reason: Also By Matched Author
+     > Timestamp: Jul 11, 2023 @ 04:46:16 AM
+     > Direct Link: https://www.youtube.com/watch?v=jNfAdJfwSUA&lc=Ugwc6zG7hUvObEuk3XR4AaABAg
+     > Author Channel ID: UC4tPtdRI4eW550iaDjtj1gg
+=============================================================================================
+
+
+==================== Match Samples: One comment per matched-comment author ====================
+ 1.  [x1]   UC4tPtdRI4eW550iaDjtj1gg | deep patel          : Not Liked                                                                         
+
+
+Spammers Banned: True
+
+Action Taken on Comments: Removed
+
+Also Retrieved All Other Comments by Matched Authors: True
+
