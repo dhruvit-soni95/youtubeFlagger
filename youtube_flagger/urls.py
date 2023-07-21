@@ -4,10 +4,15 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', views.index, name="index"),
+    path('index', views.index, name="index"),
     path('youtube', views.youtube, name="youtube"),
     path('fetchedvideos', views.fetchYTvideos, name="fetchYTvideos"),
     path('retrieveComments', views.retrieveComments, name="retrieveComments"),
     path('processing', views.processing, name="processing"),
     path('main', views.main, name="main"),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+    path('', views.login, name="login"),
+    path('register', views.register, name="register"),
+    path('registration', views.registration, name="registration"),
+    # path('checkAuth', views.checkAuth, name="checkAuth"),
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

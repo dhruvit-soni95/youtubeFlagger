@@ -18,6 +18,8 @@
       <div class="wrapper">
         <div class="title"><span>Registration Form</span></div>
         <form action="/registration" method="post">
+
+          {% csrf_token %}
           {% if name_error %}
           <div class="alert alert-success" role="alert">
             {{name_error}}
@@ -25,7 +27,6 @@
           {% endif %}
 
 
-          {% csrf_token %}
           <div class="row">
             <i class="fas fa-user"></i>
             <input type="text" name="username" placeholder="Your Name" >
@@ -42,7 +43,16 @@
             <i class="fas fa-lock"></i>
             <input type="password" name="password" placeholder="Password" >
           </div>
-          <div class="pass"><a href="#">Forgot password?</a></div>
+<!--          <div class="row mt-4">-->
+<!--&lt;!&ndash;            <i class="fas fa-file"></i>&ndash;&gt;-->
+<!--            <label for="secret">client_secret.json</label>-->
+<!--            <input type="file" name="clientsecret" id="secret" placeholder="Upload client_secret.json File here" >-->
+<!--          </div>-->
+<!--          <div class="row mt-4">-->
+<!--            <label for="cobalt">client_secret.json</label>-->
+<!--            <input type="file" name="cobaltdeck" id="cobalt" placeholder="Upload cobalt-deck.json File here" >-->
+<!--          </div>-->
+          <div class="pass mt-4"><a href="#">Forgot password?</a></div>
           <div class="row button">
             <input type="submit" value="Register">
           </div>

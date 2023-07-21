@@ -1,138 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Features</title>
+{% extends 'basic.html' %}
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/features/">
-
-
-    <!-- Bootstrap core CSS -->
-    {% load static %}
-    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-    </style>
-
-
-    <!-- Custom styles for this template -->
-    {% load static %}
-    <link href="{% static 'css/features.css' %}" rel="stylesheet">
-    {% load static %}
-    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet">
-</head>
-<body>
-<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Youtube Flagger</a>
-    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-    <div class="navbar-nav">
-        <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="#">Sign out</a>
-        </div>
-    </div>
-</header>
-
-
-<div class="container-fluid">
-    <div class="row">
-        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-            <div class="position-sticky pt-3">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">
-                            <span data-feather="home"></span>
-                            Dashboard
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/youtube">
-                            <span data-feather="youtube"></span>
-                            Run Youtube
-                        </a>
-                    </li>
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="#">-->
-<!--                            <span data-feather="shopping-cart"></span>-->
-<!--                            Products-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="#">-->
-<!--                            <span data-feather="users"></span>-->
-<!--                            Customers-->
-<!--                        </a>-->
-<!--                    </li>-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="bar-chart-2"></span>
-                            Reports
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="layers"></span>
-                            Integrations
-                        </a>
-                    </li>
-                </ul>
-
-                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                    <span>Saved reports</span>
-                    <a class="link-secondary" href="#" aria-label="Add a new report">
-                        <span data-feather="plus-circle"></span>
-                    </a>
-                </h6>
-                <ul class="nav flex-column mb-2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Current month
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Last quarter
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Social engagement
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span data-feather="file-text"></span>
-                            Year-end sale
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+{% block body %}
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <!--            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">-->
@@ -210,111 +78,128 @@
 
 <!--                <div class="b-example-divider"></div>-->
 
-                <div class="container px-4 py-5" id="hanging-icons">
-                    <h2 class="pb-2 border-bottom">Youtube</h2>
+<!--                <div class="container px-4 py-5" id="hanging-icons">-->
+<!--                    &lt;!&ndash;                    {% if success %}&ndash;&gt;-->
+<!--                    <h3 style="background-color: green; color: white;" class="p-3">{{success}}</h3>-->
+<!--&lt;!&ndash;                    {% endif %}&ndash;&gt;-->
+<!--&lt;!&ndash;                    {% if errorr %}&ndash;&gt;-->
+<!--                    <h3 style="background-color: red; color: white;" class="p-3">{{errorr}}</h3>-->
+<!--&lt;!&ndash;                    {% endif %}&ndash;&gt;-->
+<!--                    <h2 class="pb-2 border-bottom">Youtube</h2>-->
 
-                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                        <div class="col d-flex align-items-start">
-                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                                <svg class="bi" width="1em" height="1em">
-                                    <use xlink:href="#toggles2"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h2>Youtube Command</h2>
-<!--                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with-->
-<!--                                    another sentence and probably just keep going until we run out of words.</p>-->
-                                <a href="processing" class="btn btn-primary">
-                                    Click Here
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                                <svg class="bi" width="1em" height="1em">
-                                    <use xlink:href="#cpu-fill"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h2>Fetch your Youtube vidoes</h2>
-<!--                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with-->
-<!--                                    another sentence and probably just keep going until we run out of words.</p>-->
+<!--                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">-->
+<!--                                <svg class="bi" width="1em" height="1em">-->
+<!--                                    <use xlink:href="#toggles2"/>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <h2>Youtube Command</h2>-->
+<!--                                <a href="processing" class="btn btn-primary">-->
+<!--                                    Click Here-->
+<!--                                </a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--&lt;!&ndash;                        <div class="col d-flex align-items-start">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <svg class="bi" width="1em" height="1em">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <use xlink:href="#cpu-fill"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </svg>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <h2>Fetch your Youtube vidoes</h2>&ndash;&gt;-->
 
-                                <p>{{eror}}</p>
-                                    <p>{{e}}</p>
+<!--&lt;!&ndash;                                <p>{{eror}}</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <p>{{e}}</p>&ndash;&gt;-->
 
 
-                                <form action="fetchedvideos" method="post">{% csrf_token %}
-                                  <div class="form-group">
-<!--                                    <label for="exampleInputEmail1">Email address</label>-->
-                                    <input type="text" name="channelid" required class="form-control" id="exampleInputEmail1" placeholder="Enter Youtube Channel id">
-                                  </div>
-                                  <button type="submit" class="btn btn-primary mt-2">Fetch Videos</button>
-                                </form>
-<!--                                <a href="fetchedvideos" class="btn btn-primary">-->
+<!--&lt;!&ndash;                                <form action="fetchedvideos" method="post">{% csrf_token %}&ndash;&gt;-->
+<!--&lt;!&ndash;                                  <div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                    <label for="exampleInputEmail1">Email address</label>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <input type="text" name="channelid" required class="form-control" id="exampleInputEmail1" placeholder="Enter Youtube Channel id">&ndash;&gt;-->
+<!--&lt;!&ndash;                                  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                                  <button type="submit" class="btn btn-primary mt-2">Fetch Videos</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </form>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">-->
+<!--                                <svg class="bi" width="1em" height="1em">-->
+<!--                                    <use xlink:href="#tools"/>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <h2>Featured title</h2>-->
+<!--                                <a href="#" class="btn btn-primary">-->
 <!--                                    Primary button-->
 <!--                                </a>-->
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                                <svg class="bi" width="1em" height="1em">
-                                    <use xlink:href="#tools"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h2>Featured title</h2>
-<!--                                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with-->
-<!--                                    another sentence and probably just keep going until we run out of words.</p>-->
-                                <a href="#" class="btn btn-primary">
-                                    Primary button
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
 
-                <div class="b-example-divider"></div>
+<!--                <div class="b-example-divider"></div>-->
 
                 <div class="container px-4 py-5" id="custom-cards">
-                    <h2 class="pb-2 border-bottom">Custom cards</h2>
+                                        <!--                    {% if success %}-->
+                    <h3 style="background-color: green; color: white; border-radius:15px;" class="p-3">{{success}}</h3>
+<!--                    {% endif %}-->
+<!--                    {% if errorr %}-->
+                    <h3 style="background-color: red; color: white; border-radius:15px;" class="p-3">{{errorr}}</h3>
+<!--                    {% endif %}-->
+                    <h2 class="pb-2 border-bottom">Youtube Commands</h2>
 
-                    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                        <div class="col">
-                            {% load static %}
-                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-                                 style="background-image: url({% static 'img/unsplash-photo-1.jpg' %});">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-                                    <ul class="d-flex list-unstyled mt-auto">
-                                        <li class="me-auto">
-                                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32"
-                                                 height="32" class="rounded-circle border border-white">
-                                        </li>
-                                        <li class="d-flex align-items-center me-3">
-                                            <svg class="bi me-2" width="1em" height="1em">
-                                                <use xlink:href="#geo-fill"/>
-                                            </svg>
-                                            <small>Earth</small>
-                                        </li>
-                                        <li class="d-flex align-items-center">
-                                            <svg class="bi me-2" width="1em" height="1em">
-                                                <use xlink:href="#calendar3"/>
-                                            </svg>
-                                            <small>3d</small>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+<!--                        <div class="col">-->
+<!--                            {% load static %}-->
+<!--                            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"-->
+<!--                                 style="background-image: url({% static 'img/unsplash-photo-1.jpg' %});">-->
+<!--                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">-->
+<!--&lt;!&ndash;                                    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <svg class="bi" width="1em" height="1em">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <use xlink:href="#cpu-fill"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </svg>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--                                    <div>-->
+<!--                                        <h2>Fetch your Youtube vidoes</h2>-->
+
+<!--                                        <p>{{eror}}</p>-->
+<!--                                            <p>{{e}}</p>-->
+
+
+<!--                                        <form action="fetchedvideos" method="post">{% csrf_token %}-->
+<!--                                          <div class="form-group">-->
+<!--        &lt;!&ndash;                                    <label for="exampleInputEmail1">Email address</label>&ndash;&gt;-->
+<!--                                            <input type="text" name="channelid" required class="form-control" id="exampleInputEmail1" placeholder="Enter Youtube Channel id">-->
+<!--                                          </div>-->
+<!--                                          <button type="submit" class="btn btn-primary mt-2">Fetch Videos</button>-->
+<!--                                        </form>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
                         <div class="col">
                             {% load static %}
                             <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                                  style="background-image: url({% static 'img/unsplash-photo-2.jpg' %});">
                                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to
-                                        multiple lines</h2>
+                                    <div>
+                                        <h2>Fetch your Youtube vidoes</h2>
+
+                                        <p>{{eror}}</p>
+                                            <p>{{e}}</p>
+
+
+                                        <form action="fetchedvideos" method="post">{% csrf_token %}
+                                          <div class="form-group">
+        <!--                                    <label for="exampleInputEmail1">Email address</label>-->
+                                            <input type="text" name="channelid" required class="form-control" id="exampleInputEmail1" placeholder="Enter Youtube Channel id">
+                                          </div>
+                                          <button type="submit" class="btn btn-primary mt-2">Fetch Videos</button>
+                                        </form>
+                                    </div>
                                     <ul class="d-flex list-unstyled mt-auto">
                                         <li class="me-auto">
                                             <img src="https://github.com/twbs.png" alt="Bootstrap" width="32"
@@ -368,99 +253,91 @@
                     </div>
                 </div>
 
-                <div class="b-example-divider"></div>
+<!--                <div class="b-example-divider"></div>-->
 
-                <div class="container px-4 py-5" id="icon-grid">
-                    <h2 class="pb-2 border-bottom">Icon grid</h2>
+<!--                <div class="container px-4 py-5" id="icon-grid">-->
+<!--                    <h2 class="pb-2 border-bottom">Icon grid</h2>-->
 
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#bootstrap"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#cpu-fill"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#calendar3"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#home"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#speedometer2"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#toggles2"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#geo-fill"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                        <div class="col d-flex align-items-start">
-                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                                <use xlink:href="#tools"/>
-                            </svg>
-                            <div>
-                                <h4 class="fw-bold mb-0">Featured title</h4>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#bootstrap"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#cpu-fill"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#calendar3"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#home"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#speedometer2"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#toggles2"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#geo-fill"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col d-flex align-items-start">-->
+<!--                            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">-->
+<!--                                <use xlink:href="#tools"/>-->
+<!--                            </svg>-->
+<!--                            <div>-->
+<!--                                <h4 class="fw-bold mb-0">Featured title</h4>-->
+<!--                                <p>Paragraph of text beneath the heading to explain the heading.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
             </main>
 
         </main>
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
-        integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
-        crossorigin="anonymous"></script>
-{% load static %}
-<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 
-{% load static %}
-<script src="{% static 'js/dashboard.js' %}"></script>
-</body>
-</html>
+{% endblock %}

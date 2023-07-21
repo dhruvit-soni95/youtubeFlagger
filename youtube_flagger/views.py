@@ -1,5 +1,6 @@
-from django.shortcuts import render
-from django.http import  HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, redirect
+from django.views.decorators.csrf import csrf_protect
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.urls import reverse_lazy
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -11,6 +12,7 @@ import os
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
+from .models import userRegistration
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 # Create your views here.
 
@@ -80,8 +82,145 @@ from googleapiclient.errors import HttpError
 ##########################################################################################
 ##########################################################################################
 
+
+
+
+# Create your views here.
+def login(request):
+  if request.method =='POST':
+    email = request.POST.get('email')
+    password = request.POST.get('password')
+    if (not email):
+      err_message = "Email is Required"
+      return render(request, 'analysiscomments/authentication/login.html', {"name_error": err_message})
+    elif (not password):
+      err_message = "Password is Required"
+      return render(request, 'analysiscomments/authentication/login.html', {"name_error": err_message})
+    else:
+      try:
+        mydata = userRegistration.objects.get(user_email=email, user_password=password)
+        print("login Successfully")
+        # window.localStorage.setItem('token', '#1awqf');
+        # return render(request, 'index.html', {"email": email})
+        # return HttpResponse("Login Successfully")
+        return redirect('index')
+      except userRegistration.DoesNotExist:
+        return redirect('login')
+  # else:
+  return render(request,"authentication/login.html")
+
+def register(request):
+    return render( request ,'authentication/register.html')
+
+# def home(request):
+#     return render(request,'analysiscomments/index.html')
+
+from .forms import JSONUploadForm
+@csrf_protect
+def registration(request):
+  # if request.method == "POST":
+  #   form = JSONUploadForm(request.POST, request.FILES['clientsecret'])
+  #   if form.is_valid():
+  #     json_file = request.FILES['json_file']
+  #     data = json.load(json_file)
+  #     print("form issss "+ data)
+  Username = request.POST.get('username')
+  Userphone = request.POST.get('phone')
+  Useremail = request.POST.get('email')
+  Userpassword = request.POST.get('password')
+  # clientsecret = request.POST.get('clientsecret')
+  # cobaltdeck = request.POST.get('cobaltdeck')
+  # err_message = None
+  if (not Username):
+    err_message = "First Name is Required"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+  elif (len(Username) < 4):
+    err_message = "Name is Should be more then 4 Character"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+
+  elif (not Userphone):
+    err_message = "Phone is Required"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+  elif (len(Userphone) > 13):
+    err_message = "Phone Number Max 13 digit"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+
+  elif (not Useremail):
+    err_message = "Email is Required"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+
+  elif (not Userpassword):
+    err_message = "Password is Required"
+    return render(request, 'authentication/register.html', {"name_error": err_message})
+
+  # elif (not clientsecret):
+  #   err_message = "client_secret.json file is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  #
+  # elif (not cobaltdeck):
+  #   err_message = "cobalt-deck.josn file is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  else:
+    try:
+      mydata = userRegistration.objects.get(user_email=Useremail)
+      return HttpResponse("Data already Satisfied Please use other email id")
+    except userRegistration.DoesNotExist:
+      save = userRegistration(
+        user_name=Username,
+        user_phone=Userphone,
+        user_email=Useremail,
+        user_password=Userpassword
+      )
+      # user_client_secret_json = clientsecret,
+      # user_client_cobaltdeck_json = cobaltdeck
+      save.save()
+      return HttpResponseRedirect('/')
+
+
+# def checkAuth(request):
+
+
+
+
+
 def index(request):
-  return render(request, 'index.html')
+  # email = request.GET.get('email')
+  # print(email)
+  if request.method == 'POST':
+      # email = request.GET.get('email')
+    data_from_js = request.POST.get('email')  # Get the data sent from JavaScript
+    print("email isssss "+data_from_js)
+    # Process the data or do something with it
+    # ...
+
+    # You can send a response back to JavaScript if needed
+    response_data = {'message': 'Data received successfully!'}
+    # return JsonResponse(response_data)
+    return render(request, 'index.html')
+
+  else:
+    # return JsonResponse({'error': 'Invalid method'})
+    return render(request, 'index.html')
+
+
+  # email = request.POST['email']
+  # # Any process that you want
+  # # data = {
+  # #   # Data that you want to send to javascript function
+  # # }
+  # # return JsonResponse(data)
+  # # print(f"email is: {email}")
+  # print(email)
+  # print(request)
+  # # print(f"Post: {request.POST.get('email')}")
+  # # data = {
+  # #   # Data that you want to send to javascript function
+  # #   "msg":email
+  # # }
+  # # return JsonResponse(data)
+  # if(request == None):
+  #   return render(request, "authentication/login.html")
+  # else:
 
 def youtube(request):
   return render(request, 'youtube.html')
@@ -1903,9 +2042,9 @@ def main(request):
   while continueRunning == True:
     continueRunning = primaryInstance(miscData)
     if yesItsError == True:
-      return render(request,"processing.html", {"success":"You deleted comments Successfully in this Video Id - "+video_id})
+      return render(request,"youtube.html", {"success":"You deleted comments Successfully in this Video Id - "+video_id})
     elif yesItsError == False:
-      return render(request,"processing.html", {"errorr":"There is no Spam Comments to Delete in this Video Id - "+video_id})
+      return render(request,"youtube.html", {"errorr":"There is no Spam Comments to Delete in this Video Id - "+video_id})
 
   # return render(request, 'youtube.html', {"success":"Done... Please go Back and do it again for all other comments"})
 
