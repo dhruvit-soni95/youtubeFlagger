@@ -41,14 +41,31 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script>
-function saveLocalStorage() {
-  console.log("email is "+document.getElementById('emailid').value)
-  window.localStorage.clear()
-  window.localStorage.setItem('email', document.getElementById('emailid').value)
-}
+<!--<script>-->
+<!--function saveLocalStorage() {-->
+<!--  console.log("email is "+document.getElementById('emailid').value)-->
+<!--  window.localStorage.clear()-->
+<!--  email = document.getElementById('emailid').value-->
+<!--  console.log("this email is set on cookie")-->
+<!--  console.log("this email is set on cookie"+email)-->
+<!--  document.cookie = `email=email`;-->
+<!--}-->
+<!--</script>-->
+    <script>
+      function setCookie(name, value, daysToExpire) {
+            const date = new Date();
+            date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + date.toUTCString();
+            document.cookie = name + "=" + value + "; " + expires + "; path=/";
+      }
+      function saveLocalStorage(){
+        email = document.getElementById('emailid').value
+        setCookie("email", email, 30); // Expires in 30 days
+      }
+    </script>
+<!--      window.localStorage.setItem('email', document.getElementById('emailid').value)-->
 
-</script>
+
 <!--      window.localStorage.setItem('email', document.getElementById('emailid').value)-->
 
 <!--        <script>-->

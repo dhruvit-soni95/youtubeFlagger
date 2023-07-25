@@ -48,10 +48,11 @@ def initialize():
 # Authorize the request and store authorization credentials.
 
 
-def get_authenticated_service():
+def get_authenticated_service(client_secrets):
     global YOUTUBE
     # global CLIENT_SECRETS_FILE
-    secrets_path = os.path.join(settings.SECRETS_DIR, 'client_secrets.json')
+    # client_secret_file = "/upload/"+client_secrets
+    secrets_path = os.path.join(settings.SECRETS_DIR+"/upload/", str(client_secrets))
     # with open(secrets_path) as secrets_file:
     CLIENT_SECRETS_FILE = secrets_path
     # CLIENT_SECRETS_FILE = json.dump(data1)
@@ -104,10 +105,10 @@ def get_authenticated_service():
     return YOUTUBE
 
 
-def first_authentication():
+def first_authentication(client_secrets):
     global YOUTUBE
     try:
-        YOUTUBE = get_authenticated_service()  # Create authentication object
+        YOUTUBE = get_authenticated_service(client_secrets)  # Create authentication object
     except JSONDecodeError as jx:
         print(f"{F.WHITE}{B.RED} [!!!] Error: {S.R}" + str(jx))
         print(

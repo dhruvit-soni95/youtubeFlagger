@@ -15,7 +15,7 @@ import googleapiclient.errors
 from .models import userRegistration
 scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
 # Create your views here.
-
+from .functions.functions import handle_uploaded_file
 nltk.download('vader_lexicon')
 
 version = "2.17.0"
@@ -87,6 +87,7 @@ from googleapiclient.errors import HttpError
 
 # Create your views here.
 def login(request):
+
   if request.method =='POST':
     email = request.POST.get('email')
     password = request.POST.get('password')
@@ -110,7 +111,16 @@ def login(request):
   return render(request,"authentication/login.html")
 
 def register(request):
-    return render( request ,'authentication/register.html')
+  if request.method == 'POST':
+    user = JSONUploadForm(request.POST, request.FILES)
+    if user.is_valid():
+      handle_uploaded_file(request.FILES['user_client_secret_json'])
+      handle_uploaded_file(request.FILES['user_client_cobaltdeck_json'])
+      model_instance = user.save(commit=False)
+      model_instance.save()
+      return HttpResponseRedirect('/')
+  user = JSONUploadForm()
+  return render(request,"authentication/register.html",{'form': user})
 
 # def home(request):
 #     return render(request,'analysiscomments/index.html')
@@ -118,63 +128,78 @@ def register(request):
 from .forms import JSONUploadForm
 @csrf_protect
 def registration(request):
+  user = JSONUploadForm()
+  return render(request,"authentication/register.html",{'form': user})
   # if request.method == "POST":
   #   form = JSONUploadForm(request.POST, request.FILES['clientsecret'])
   #   if form.is_valid():
   #     json_file = request.FILES['json_file']
   #     data = json.load(json_file)
   #     print("form issss "+ data)
-  Username = request.POST.get('username')
-  Userphone = request.POST.get('phone')
-  Useremail = request.POST.get('email')
-  Userpassword = request.POST.get('password')
+
+
+  # Username = request.POST.get('username')
+  # Userphone = request.POST.get('phone')
+  # Useremail = request.POST.get('email')
+  # Userpassword = request.POST.get('password')
+
+
   # clientsecret = request.POST.get('clientsecret')
   # cobaltdeck = request.POST.get('cobaltdeck')
   # err_message = None
-  if (not Username):
-    err_message = "First Name is Required"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
-  elif (len(Username) < 4):
-    err_message = "Name is Should be more then 4 Character"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
+  # if (not Username):
+  #   err_message = "First Name is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  # elif (len(Username) < 4):
+  #   err_message = "Name is Should be more then 4 Character"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  #
+  # elif (not Userphone):
+  #   err_message = "Phone is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  # elif (len(Userphone) > 13):
+  #   err_message = "Phone Number Max 13 digit"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  #
+  # elif (not Useremail):
+  #   err_message = "Email is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  #
+  # elif (not Userpassword):
+  #   err_message = "Password is Required"
+  #   return render(request, 'authentication/register.html', {"name_error": err_message})
+  #
+  # student = JSONUploadForm(request.POST, request.FILES)
+  # if student.is_valid():
+  #   handle_uploaded_file(request.FILES['file'])
+  #   return HttpResponse("File uploaded successfuly")
 
-  elif (not Userphone):
-    err_message = "Phone is Required"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
-  elif (len(Userphone) > 13):
-    err_message = "Phone Number Max 13 digit"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
 
-  elif (not Useremail):
-    err_message = "Email is Required"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
 
-  elif (not Userpassword):
-    err_message = "Password is Required"
-    return render(request, 'authentication/register.html', {"name_error": err_message})
-
-  # elif (not clientsecret):
+    # elif (not clientsecret):
   #   err_message = "client_secret.json file is Required"
   #   return render(request, 'authentication/register.html', {"name_error": err_message})
   #
   # elif (not cobaltdeck):
   #   err_message = "cobalt-deck.josn file is Required"
   #   return render(request, 'authentication/register.html', {"name_error": err_message})
-  else:
-    try:
-      mydata = userRegistration.objects.get(user_email=Useremail)
-      return HttpResponse("Data already Satisfied Please use other email id")
-    except userRegistration.DoesNotExist:
-      save = userRegistration(
-        user_name=Username,
-        user_phone=Userphone,
-        user_email=Useremail,
-        user_password=Userpassword
-      )
-      # user_client_secret_json = clientsecret,
-      # user_client_cobaltdeck_json = cobaltdeck
-      save.save()
-      return HttpResponseRedirect('/')
+
+
+  # else:
+  #   try:
+  #     mydata = userRegistration.objects.get(user_email=Useremail)
+  #     return HttpResponse("Data already Satisfied Please use other email id")
+  #   except userRegistration.DoesNotExist:
+  #     save = userRegistration(
+  #       user_name=Username,
+  #       user_phone=Userphone,
+  #       user_email=Useremail,
+  #       user_password=Userpassword
+  #     )
+  #     # user_client_secret_json = clientsecret,
+  #     # user_client_cobaltdeck_json = cobaltdeck
+  #     save.save()
+  #     return HttpResponseRedirect('/')
 
 
 # def checkAuth(request):
@@ -184,23 +209,14 @@ def registration(request):
 
 
 def index(request):
-  # email = request.GET.get('email')
-  # print(email)
-  if request.method == 'POST':
-      # email = request.GET.get('email')
-    data_from_js = request.POST.get('email')  # Get the data sent from JavaScript
-    print("email isssss "+data_from_js)
-    # Process the data or do something with it
-    # ...
-
-    # You can send a response back to JavaScript if needed
-    response_data = {'message': 'Data received successfully!'}
-    # return JsonResponse(response_data)
-    return render(request, 'index.html')
-
-  else:
-    # return JsonResponse({'error': 'Invalid method'})
-    return render(request, 'index.html')
+  key = request.COOKIES.get('email')
+  print("email issssss "+key)
+  mydata = userRegistration.objects.get(user_email=key)
+  client_secret_file = mydata.user_client_secret_json
+  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  print(client_secret_file)
+  print(cobalt_deck_json)
+  return render(request, 'index.html')
 
 
   # email = request.POST['email']
@@ -273,12 +289,19 @@ def sentimentAnalysis(request):
 
 
 def main(request):
-
+  key = request.COOKIES.get('email')
+  print("email issssss "+key)
+  mydata = userRegistration.objects.get(user_email=key)
+  client_secret_file = mydata.user_client_secret_json
+  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  print(client_secret_file)
+  print(cobalt_deck_json)
   global yesItsError
   global video_id_not_found
 
   video_Id = request.GET.get('vId')
-  cobalt_path = os.path.join(settings.SECRETS_DIR, 'cobalt-deck.json')
+  # cobalt_file_path = "/upload/"+str(cobalt_deck_json)
+  cobalt_path = os.path.join(settings.SECRETS_DIR+"/upload/", str(cobalt_deck_json))
   credentials = service_account.Credentials.from_service_account_file(cobalt_path)
   youtube = build('youtube', 'v3', credentials=credentials)
   if(video_Id == ''):
@@ -408,7 +431,7 @@ def main(request):
   print("\nLoading YT Spammer Purge @ " + str(version) + "...")
 
   # Authenticate with the Google API - If token expired and invalid, deletes and re-authenticates
-  YOUTUBE = auth.first_authentication()
+  YOUTUBE = auth.first_authentication(client_secret_file)
 
            #### Prepare Resources ####
   resourceFolder = RESOURCES_FOLDER_NAME
@@ -654,7 +677,7 @@ def main(request):
     else:
       auth.remove_token()
       utils.clear_terminal()
-      YOUTUBE = auth.get_authenticated_service()
+      YOUTUBE = auth.get_authenticated_service(client_secret_file)
 
   # Declare Classes
   @dataclass

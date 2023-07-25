@@ -9,4 +9,9 @@ from .models import userRegistration
 class JSONUploadForm(forms.ModelForm):
     class Meta:
         model = userRegistration
-        fields = ('user_name','user_phone','user_email','user_password')
+        fields = ('__all__')
+
+    def __int__(self, *args, **kwargs):
+        super(userRegistration, self).__init__(*args, **kwargs)
+        for fiels_name, field in self.fields.items():
+            field.widget.attrs['class'] = 'row'
