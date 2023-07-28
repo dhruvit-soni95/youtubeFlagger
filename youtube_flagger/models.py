@@ -7,6 +7,7 @@ class userRegistration(models.Model):
     user_phone = models.CharField("Enter Phone Number",max_length=13)
     user_email = models.EmailField("Enter Email")
     user_password = models.CharField("Enter Password",max_length=100)
+    user_youtube_channel_id = models.CharField("Enter your Channel Id", max_length=50)
     user_client_secret_json = models.FileField()
     user_client_cobaltdeck_json = models.FileField()
 
