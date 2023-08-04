@@ -100,7 +100,7 @@ def print_comments(current, config, scanVideoID, loggingEnabled, scanMode, logMo
     # --------------------------------------------------------------------------------------------
 
   if doWritePrint:
-    print(f"{F.LIGHTMAGENTA_EX}============================ Match Samples: One comment per matched-comment author ============================{S.R}")
+    print(f"{F.LIGHTMAGENTA_EX}============================ Match Samplesssss: One comment per matched-comment author ============================{S.R}")
     if possibleFalsePositive:
       print(f"{F.GREEN}======= {B.GREEN}{F.BLACK} NOTE: {S.R}{F.GREEN} Possible false positives marked with * and highlighted in green. Check them extra well! ======={S.R}")
   for value in current.matchSamplesDict.values():

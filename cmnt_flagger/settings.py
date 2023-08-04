@@ -137,6 +137,26 @@ FILTER_VARIABLE = os.path.join(BASE_DIR, '../youtube_flagger/Scripts/')
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = 'media/'
 
+# settings.py
+
+# Add the APScheduler job store (usually, for SQLite, but you can choose other stores)
+# AP_SCHEDULER_JOBSTORES = {
+#     'default': {
+#         'type': 'sqlalchemy',
+#         'url': 'sqlite:///apscheduler.sqlite3',
+#     }
+# }
+
+# Define the scheduler to use the above job store
+# AP_SCHEDULER = {
+#     'apscheduler.job_defaults.coalesce': 'false',
+#     'apscheduler.job_defaults.max_instances': '3',
+#     'apscheduler.timezone': 'UTC',
+# }
+
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

@@ -5,68 +5,116 @@
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Dashboard</h1>
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <div class="btn-group me-2">
-                        <a type="button" class="btn btn-sm btn-outline-secondary" href="secondmain">See Held for Review Comments</a>
-                        <a type="button" class="btn btn-sm btn-outline-secondary">Other Button Name</a>
-                    </div>
+<!--                <div class="btn-toolbar mb-2 mb-md-0">-->
+<!--                    <div class="btn-group me-2">-->
+<!--                        <a type="button" class="btn btn-sm btn-outline-secondary" href="secondmain">See Held for Review Comments</a>-->
+<!--                        <a type="button" class="btn btn-sm btn-outline-secondary">Other Button Name</a>-->
+<!--                    </div>-->
 <!--                    <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">-->
 <!--                        <span data-feather="calendar"></span>-->
 <!--                        This week-->
 <!--                    </button>-->
-                </div>
+<!--                </div>-->
             </div>
 
 <!--            <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>-->
             {% if msgHeldforReview %}
             <h3 style="background-color: red; color: white; border-radius:15px;" class="p-3">{{msgHeldforReview}}</h3>
             {% endif %}
-            <h2>Section title {{ title }}</h2>
-            <div class="table-responsive">
-                <table class="table table-striped table-sm">
-                    <thead>
-                    <tr>
-<!--                        <th scope="col">Video Id</th>-->
-                        <th scope="col">Retrieve all Published Comments</th>
-                        <th scope="col">Retrieve all Held for Review Comments</th>
-                        <th scope="col">Scan and Delete Negative Comments</th>
-                        <th scope="col">Video Title</th>
-                        <th scope="col">Channel Author</th>
-                        <th scope="col">Thumnail</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    {% for videos in ina %}
-                    <tr>
-                        <td>
-                            <form action="retrieveComments" method="get">{% csrf_token %}
-                                <input type="text" name="v_id"  style="display:none;"  value="{{videos.videoId}}" required>
-                                <button type="submit" class="btn btn-primary">Published Comments</button>
-                            </form>
-                        </td>
-                        <td>
-                            <form action="secondmain" method="get">{% csrf_token %}
+<!--            <h2>Section title {{ title }}</h2>-->
+
+
+            <div class="container">
+              <div class="row">
+                  {% for videos in ina %}
+                <div class="col-md-4 mb-3">
+                  <div class="card" style="width: 18rem; border-radius: 15px; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);">
+
+                        <img style="border-radius:15px 15px 0 0;" src="{{videos.thumbnail}}" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">{{ videos.title }}</h5>
+<!--                      <p class="card-text">This is the first card.</p>-->
+                        <div  style="display: flex; flex-direction: row;">
+                        <form class="p-2" action="retrieveComments" method="get">{% csrf_token %}
+                            <input type="text" name="v_id"  style="display:none;"  value="{{videos.videoId}}" required>
+<!--                            <button type="submit" class="btn btn-primary">Published Comments</button>-->
+                            <button type="submit" class="btn btn-dark" title="See Published Comments"><i class="fa fa-comment"></i></button>
+                        </form>
+
+                        <form class="p-2" action="secondmain" method="get">{% csrf_token %}
                                 <input type="text" name="vId2" style="display:none;" id="vid2" value="{{videos.videoId}}" required>
-                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>
-                            </form>
-                        </td>
-                        <td>
-                            <form action="main" method="get">{% csrf_token %}
+<!--                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>-->
+                                <button type="submit" class="btn btn-dark" title="See Held For Review Comments"><i class="fa fa-flag"></i></button>
+                        </form>
+                        <form class="p-2" action="main" method="get">{% csrf_token %}
                                 <input type="text" name="vId" style="display:none;" id="vid" value="{{videos.videoId}}" required>
-                                <button type="submit" class="btn btn-primary">Scan and Delete Punlished Comments</button>
-                            </form>
-                        </td>
-                        <td>{{ videos.title }}</td>
-                        <td>{{ videos.author }}</td>
-                        <td><img src="{{videos.thumbnail}}"></td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
+<!--                                <button type="submit" class="btn btn-primary" id="scanning">Scan and Delete Punlished Comments</button>-->
+                                <button type="submit" class="btn btn-dark"  id="scanning" title="Scan and Delete Published Comments"><i class="fa fa-trash"></i></button>
+                        </form>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+                  {% endfor %}
+              </div>
             </div>
+
+
+<!--            <div class="table-responsive">-->
+<!--                <table class="table table-striped table-sm">-->
+<!--                    <thead>-->
+<!--                    <tr>-->
+<!--                        <th scope="col">Retrieve all Published Comments</th>-->
+<!--                        <th scope="col">Retrieve all Held for Review Comments</th>-->
+<!--                        <th scope="col">Scan and Delete Negative Comments</th>-->
+<!--                        <th scope="col">Video Title</th>-->
+<!--                        <th scope="col">Channel Author</th>-->
+<!--                        <th scope="col">Thumnail</th>-->
+<!--                    </tr>-->
+<!--                    </thead>-->
+<!--                    <tbody>-->
+<!--                    {% for videos in ina %}-->
+<!--                    <tr>-->
+<!--                        <td>-->
+<!--                            <form action="retrieveComments" method="get">{% csrf_token %}-->
+<!--                                <input type="text" name="v_id"  style="display:none;"  value="{{videos.videoId}}" required>-->
+<!--                                <button type="submit" class="btn btn-primary">Published Comments</button>-->
+<!--                            </form>-->
+<!--                        </td>-->
+<!--                        <td>-->
+<!--                            <form action="secondmain" method="get">{% csrf_token %}-->
+<!--                                <input type="text" name="vId2" style="display:none;" id="vid2" value="{{videos.videoId}}" required>-->
+<!--                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>-->
+<!--                            </form>-->
+<!--                        </td>-->
+<!--                        <td>-->
+<!--                            <form action="main" method="get">{% csrf_token %}-->
+<!--                                <input type="text" name="vId" style="display:none;" id="vid" value="{{videos.videoId}}" required>-->
+<!--                                <button type="submit" class="btn btn-primary" id="scanning">Scan and Delete Punlished Comments</button>-->
+<!--                            </form>-->
+<!--                        </td>-->
+<!--                        <td>{{ videos.title }}</td>-->
+<!--                        <td>{{ videos.author }}</td>-->
+<!--                        <td><img src="{{videos.thumbnail}}"></td>-->
+<!--                    </tr>-->
+<!--                    {% endfor %}-->
+<!--                    </tbody>-->
+<!--                </table>-->
+<!--            </div>-->
+
+
+
         </main>
-    </div>
-</div>
+<!--    </div>-->
+<!--</div>-->
+<!--<script>-->
+<!--    window.onload = function(){-->
+<!--        var button = document.getElementById('scanning');-->
+<!--        setInterval(function(){-->
+<!--            button.click();-->
+<!--        },3600000);  // this will make it click again every 1000 miliseconds-->
+<!--    };-->
+<!--</script>-->
 
 {% endblock %}
 

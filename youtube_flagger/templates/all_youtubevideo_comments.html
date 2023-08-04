@@ -3,38 +3,44 @@
 {% block body %}
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Dashboard</h1>
-                <div class="btn-toolbar mb-2 mb-md-0">
-                    <div class="btn-group me-2">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-                    </div>
-                    <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-                        <span data-feather="calendar"></span>
-                        This week
-                    </button>
-                </div>
+                <h1 class="h2">Youtube Comments on Id - {{video_Id}}</h1>
+<!--                <div class="btn-toolbar mb-2 mb-md-0">-->
+<!--                    <div class="btn-group me-2">-->
+<!--                        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>-->
+<!--                        <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>-->
+<!--                    </div>-->
+<!--                    <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">-->
+<!--                        <span data-feather="calendar"></span>-->
+<!--                        This week-->
+<!--                    </button>-->
+<!--                </div>-->
             </div>
 
 <!--            <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>-->
 
-            <h2>Section title {{ title }}</h2>
+<!--            <h2>Section title {{ title }}</h2>-->
             <div class="table-responsive">
-                <table class="table table-striped table-sm">
+
+
+                <table class="styled-table">
                     <thead>
-                    <tr>
-                        <th scope="col">Id</th>
-                        <th scope="col">Delete</th>
-                        <th scope="col">Commtents</th>
-                    </tr>
+                        <tr>
+                            <th>Comments</th>
+                            <th>Authors</th>
+                            <th>Delete</th>
+                            <th>Actions</th>
+                        </tr>
                     </thead>
                     <tbody>
-                    {% for cmnt in cmnts %}
+                        {% for cmnt in cmnts %}
                     <tr>
+
+                        <td>{{ cmnt.cmnts }}</td>
+                        <td>{{ cmnt.author }}</td>
                         <td>
                             <form action="checkHeldforReview" method="get">{% csrf_token %}
-                                <input type="text" name="cmntid"  value="{{cmnt.cmntId}}" required>
-                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>
+                                <input type="text" name="cmntid" style="display: none;"  value="{{cmnt.cmntId}}" required>
+                                <button type="submit" class="btn btn-dark"><i class="fa fa-flag"></i> Add to Held for Review</button>
                             </form>
 <!--                            {{ cmnt.cmntId }}-->
                         </td>
@@ -42,16 +48,48 @@
                         <td>
                             <form action="perticulardeleteYTcomment/{{video_Id}}/{{cmnt.cmnts}}" method="get">{% csrf_token %}
                                 <input type="text" name="cmntid" style="display:none;"  value="{{cmnt.cmntId}}" required>
-                                <button type="submit" class="btn btn-primary">Delete this Comment</button>
+                                <button type="submit" class="btn btn-dark"><i class="fa fa-trash"></i></button>
                             </form>
 <!--                            {{ cmnt.cmntId }}-->
                         </td>
-
-                        <td>{{ cmnt.cmnts }}</td>
                     </tr>
                     {% endfor %}
                     </tbody>
                 </table>
+
+
+
+
+<!--                <table class="table table-striped table-sm">-->
+<!--                    <thead>-->
+<!--                    <tr>-->
+<!--                        <th scope="col">Id</th>-->
+<!--                        <th scope="col">Delete</th>-->
+<!--                        <th scope="col">Commtents</th>-->
+<!--                    </tr>-->
+<!--                    </thead>-->
+<!--                    <tbody>-->
+<!--                    {% for cmnt in cmnts %}-->
+<!--                    <tr>-->
+<!--                        <td>-->
+<!--                            <form action="checkHeldforReview" method="get">{% csrf_token %}-->
+<!--                                <input type="text" name="cmntid"  value="{{cmnt.cmntId}}" required>-->
+<!--                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>-->
+<!--                            </form>-->
+<!--                        </td>-->
+
+<!--                        <td>-->
+<!--                            <form action="perticulardeleteYTcomment/{{video_Id}}/{{cmnt.cmnts}}" method="get">{% csrf_token %}-->
+<!--                                <input type="text" name="cmntid" style="display:none;"  value="{{cmnt.cmntId}}" required>-->
+<!--                                <button type="submit" class="btn btn-primary">Delete this Comment</button>-->
+<!--                            </form>-->
+<!--                        </td>-->
+
+<!--                        <td>{{ cmnt.cmnts }}</td>-->
+<!--                    </tr>-->
+<!--                    {% endfor %}-->
+<!--                    </tbody>-->
+<!--                </table>-->
             </div>
         </main>
     </div>
