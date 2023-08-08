@@ -21,14 +21,21 @@
 <!--            <h2>Section title {{ title }}</h2>-->
             <div class="table-responsive">
 
-
+            {% if reply_success %}
+            <h3 style="background-color: green; color: white; border-radius:15px;" class="p-3">{{reply_success}}</h3>
+            {% endif %}
+            {% if reply_failed %}
+            <h3 style="background-color: red; color: white; border-radius:15px;" class="p-3">{{reply_failed}}</h3>
+            {% endif %}
                 <table class="styled-table">
                     <thead>
                         <tr>
                             <th>Comments</th>
                             <th>Authors</th>
-                            <th>Delete</th>
+<!--                            <th>Replied</th>-->
                             <th>Actions</th>
+                            <th>Reply</th>
+                            <th>Delete</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -37,10 +44,21 @@
 
                         <td>{{ cmnt.cmnts }}</td>
                         <td>{{ cmnt.author }}</td>
+<!--                        <td>{{ cmnt.replies }}</td>-->
                         <td>
                             <form action="checkHeldforReview" method="get">{% csrf_token %}
                                 <input type="text" name="cmntid" style="display: none;"  value="{{cmnt.cmntId}}" required>
                                 <button type="submit" class="btn btn-dark"><i class="fa fa-flag"></i> Add to Held for Review</button>
+                            </form>
+<!--                            {{ cmnt.cmntId }}-->
+                        </td>
+                        <td>
+
+<!--                            value="{{cmnt.cmntId}}"-->
+                            <form action="replycomment/{{cmnt.cmntId}}/{{cmnt.cmnts}}" method="get">{% csrf_token %}
+                                <input type="text" name="rplyid" id="replycmnt" style="display:block;" placeholder="Enter Reply Text Here."  required>
+                                <button  class="btn btn-dark" id="reply" style="display:none;" onclick="UnhideInput()"><i class="fa fa-reply"></i></button>
+                                <button type="submit" class="btn btn-dark" id="submitreply" style="display:block;" onclick="HideInput()"><i class="fa fa-paper-plane"></i></button>
                             </form>
 <!--                            {{ cmnt.cmntId }}-->
                         </td>
@@ -95,4 +113,18 @@
     </div>
 </div>
 
+{% endblock %}
+{% block script %}
+<script>
+    function UnhideInput() {
+        document.getElementById('replycmnt').style.display='block';
+        document.getElementById('submitreply').style.display='block';
+        document.getElementById('reply').style.display='none';
+    }
+    function HideInput() {
+        document.getElementById('reply').style.display='block';
+        document.getElementById('replycmnt').style.display='none';
+        document.getElementById('submitreply').style.display='none';
+    }
+</script>
 {% endblock %}

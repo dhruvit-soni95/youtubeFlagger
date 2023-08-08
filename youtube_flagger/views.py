@@ -1,3 +1,8 @@
+import openai
+
+# from chatterbot import ChatBot
+# from chatterbot.trainers import ChatterBotCorpusTrainer
+
 from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_protect
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
@@ -411,10 +416,50 @@ def main(request):
                         "twunter", "v14gra", "v1gra", "vagina", "viagra", "vulva", "w00se", "wang", "wank", "wanker",
                         "wanky", "whoar", "whore", "willies", "willy", "xrated", "xxx","arse","arsehead","arsehole","ass","asshole","bastard","bitch","bloody","bollocks","brotherfucker","bugger","bullshit","childfucker","cock","cocksucker","crap","cunt","dick","dickhead","dyke","fatherfucker","frigger","goddamn","godsdamn","hell","holy shit","horseshit","in shit","jesus christ","jesus fuck","jesus harold","jesus wept","kike","motherfucker","nigga","nigra","piss","prick","pussy","shit","shit ass","shite","sisterfucker","sister fucker","slut","son of a whore","whore","son of a bitch","spastic","sweet jesus","turd","twat","wanker","asshole","ass hole","bloody oath","fuck", "fucking", "~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "<", "/" , "|", "+"]
   # comments.append(dd)
+  file = os.path.join(settings.SECRETS_DIR + "/users_comments/comments"+key+".txt")
+  if os.path.exists(settings.SECRETS_DIR + "/users_comments/comments"+key+".txt"):
+    file2 = open(file, "r")
+
+    PreComments = []
+    for word in file2:
+      if word not in PreComments:
+        PreComments.append(word)
+    print(PreComments)
+    mergedComments = comments + PreComments
+    print(mergedComments)
+    with open(file, "w") as file:
+      # file.write(comments)
+      for item in mergedComments:
+        file.write(item+"*")
+  elif not os.path.exists(settings.SECRETS_DIR + "/users_comments/comments"+key+".txt"):
+    PreComments = []
+    with open(file, "w") as file:
+      # file.write(comments)
+      for item in comments:
+        file.write(item+"*")
+
+  cmnt_file = os.path.join(settings.SECRETS_DIR + "/users_comments/comments"+key+".txt")
+  file2 = open(cmnt_file)
+  commentContent = file2.read()
+  rrr = commentContent.replace("*",",")
+  print("llllllllllllllllllllllllllllllllllllll")
+  print(rrr)
+  print("tttttttttttttttttttttttttttttttttttttttttt")
+  # str(file2).split("\n")
+  # auxiliaryList = []
+  # for word in file2:
+  #   if word not in auxiliaryList:
+  #     auxiliaryList.append(word)
+  #     print(auxiliaryList)
+  #     print("binngggoo")
+  #     break
+
+
+    # file.writelines(comments)
   cc = ','.join(dd)
   bb = ','.join(comments)
   print(bb)
-  b = bb+','+cc
+  b = bb+','+cc+','+rrr
   print(b)
   # a = ['fuck','stupid','not awesome','not liked','bs','flop','super flop','abc']
   # b = ','.join(a)
@@ -2768,8 +2813,8 @@ def retrieveComments(request):
       YOUTUBE = auth.get_authenticated_service(client_secret_file)
 
   comments = []
+  replycomments = []
   commentsid = []
-
   try:
     # Request the comments using the API
     response = auth.YOUTUBE.commentThreads().list(
@@ -2787,8 +2832,26 @@ def retrieveComments(request):
 
         commentid = item['id']
         print("comments id : "+commentid)
+        # object = { "cmntId": commentid, "cmnts": comment, "author": author }
+        # comments.append(object)
+
+          # print("comments id : "+commentid)
         object = { "cmntId": commentid, "cmnts": comment, "author": author }
         comments.append(object)
+
+
+
+        # responsestwo = auth.YOUTUBE.comments().list(
+        #   part='snippet',
+        #   parentId=commentid,
+        #   textFormat='plainText'
+        # ).execute()
+        # for replies in responsestwo['items']:
+        #   reply_text = replies['snippet']['textDisplay']
+        #   second_object = { "replies":reply_text }
+        #   comments.append(second_object)
+
+
 
 
       # Check if there are more comments to retrieve
@@ -3753,8 +3816,42 @@ def checkPublished(request):
 
 
 def perticulardeleteYTcomment(request, video_Id,commentsss):
-
   key = request.COOKIES.get('email')
+  cmnt_array = [commentsss]
+  file = os.path.join(settings.SECRETS_DIR + "/users_comments/comments" + key + ".txt")
+  if os.path.exists(settings.SECRETS_DIR + "/users_comments/comments" + key + ".txt"):
+    file2 = open(file, "r")
+
+    PreComments = []
+    for word in file2:
+      if word not in PreComments:
+        PreComments.append(word)
+    print(PreComments)
+    mergedComments = cmnt_array + PreComments
+    print(mergedComments)
+    with open(file, "w") as file:
+      # file.write(comments)
+      for item in mergedComments:
+        file.write(item + "*")
+  elif not os.path.exists(settings.SECRETS_DIR + "/users_comments/comments" + key + ".txt"):
+    PreComments = []
+    with open(file, "w") as file:
+      # file.write(comments)
+      for item in cmnt_array:
+        file.write(item + "*")
+
+  cmnt_file = os.path.join(settings.SECRETS_DIR + "/users_comments/comments" + key + ".txt")
+  file2 = open(cmnt_file)
+  commentContent = file2.read()
+  rrr = commentContent.replace("*", ",")
+
+
+
+
+
+  print(commentsss)
+  print("perticular comment")
+
   print("email issssss " + key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
@@ -7676,3 +7773,331 @@ def AutoScanYT(request):
       # return render(request,"basic.html", {"errorr":"There is no Spam Comments to Delete in this Video Id - "})
 
 
+
+def replyYTcomment(request, comment_Id, comment_text):
+  print(request.GET.get('rplyid'))
+  # print(video_Id)
+  print(comment_Id)
+  key = request.COOKIES.get('email')
+  # print("email issssss "+key)
+  mydata = userRegistration.objects.get(user_email=key)
+  client_secret_file = mydata.user_client_secret_json
+  User = namedtuple('User', 'id name configMatch')
+
+  reply_Text = request.GET.get('rplyid')
+
+
+
+
+
+
+
+  config: dict
+  # Authenticate with the Google API - If token expired and invalid, deletes and re-authenticates
+  YOUTUBE = auth.first_authentication(client_secret_file)
+
+
+
+
+
+
+        #### Prepare Resources ####
+  resourceFolder = RESOURCES_FOLDER_NAME
+  # whitelistPathWithName = os.path.join(settings.SECRETS_DIR, "assets/whitelist.txt")
+  whitelistPathWithName = os.path.join(resourceFolder, "whitelist.txt")
+  spamListFolder = os.path.join(resourceFolder, "Spam_Lists")
+  filtersFolder = os.path.join(resourceFolder, "Filters")
+  filterFileName = os.path.join(settings.SECRETS_DIR,"Scripts/filter_variables.py")
+  # secrets_path = os.path.join(settings.SECRETS_DIR, 'client_secrets.json')
+  # filterFileName = "filter_variables.py"
+  # from .Scripts import filter_variables as filterFileName
+  SpamDomainsList = os.path.join(settings.SECRETS_DIR, "assets/SpamDomainsList.txt")
+  SpamAccountsList = os.path.join(settings.SECRETS_DIR, "assets/SpamAccountsList.txt")
+  SpamThreadsList = os.path.join(settings.SECRETS_DIR, "assets/SpamThreadsList.txt")
+  SpamVersionInfo = os.path.join(settings.SECRETS_DIR, "assets/SpamVersionInfo.json")
+  spamListDict = {
+      'Lists': {
+        'Domains':  {'FileName': SpamDomainsList},
+        'Accounts': {'FileName': SpamAccountsList},
+        'Threads':  {'FileName': SpamThreadsList}
+      },
+      'Meta': {
+        'VersionInfo': {'FileName': SpamVersionInfo},
+        'SpamListFolder': spamListFolder
+        #'LatestLocalVersion': {} # Gets added later during check, this line here for reference
+      }
+  }
+  filterListDict = {
+    'Files': {
+      'FilterVariables': {'FileName': filterFileName}
+    },
+    'ResourcePath': filtersFolder
+    #'LocalVersion': {} # Gets added later during check, this line here for reference
+  }
+
+  resourcesDict = {
+    'Whitelist': {
+      'PathWithName': whitelistPathWithName,
+      'FileName': "whitelist.txt",
+    }
+  }
+
+  print("Checking for updates to program and spam lists...")
+  # Check if resources, spam list, and filters folders exist, and create them
+  if not os.path.isdir(resourceFolder):
+    try:
+      os.mkdir(resourceFolder)
+      # Create readme
+      with open(os.path.join(resourceFolder, "_What_Is_This_Folder.txt"), "w") as f:
+        f.write("# This Resources folder is used to store resources required for the YT Spammer Purge program.\n")
+        f.write("# Note: If you had a previous spam_lists folder that was created in the same folder as \n")
+        f.write("# the .exe file, you can delete that old spam_lists folder. The resources folder is the \n")
+        f.write("# new location they will be stored.\n")
+
+    except:
+      print("\nError: Could not create folder. To update the spam lists, try creating a folder called 'SpamPurge_Resources',")
+      print("       then inside that, create another folder called 'Spam_Lists'.")
+      input("Press Enter to Continue...")
+
+  if os.path.isdir(resourceFolder) and not os.path.isdir(spamListFolder):
+    try:
+      os.mkdir(spamListFolder)
+    except:
+      print("\nError: Could not create folder. To update the spam lists, go into the 'SpamPurge_Resources' folder,")
+      print("       then inside that, create another folder called 'Spam_Lists'.")
+
+  if os.path.isdir(resourceFolder) and not os.path.isdir(filtersFolder):
+      try:
+        os.mkdir(filtersFolder)
+      except:
+        print("\nError: Could not create folder. To update the spam lists, go into the 'SpamPurge_Resources' folder,")
+        print("       then inside that, create another folder called 'Filters'.")
+
+  # Prepare to check and ingest spammer list files
+  # Iterate and get paths of each list. Also gets path of filter_variables.py
+  # This for loops might not actually do anything?
+  for x,spamList in spamListDict['Lists'].items():
+    spamList['Path'] = os.path.join(spamListFolder, spamList['FileName'])
+
+  spamListDict['Meta']['VersionInfo']['Path'] = os.path.join(spamListFolder, spamListDict['Meta']['VersionInfo']['FileName']) # Path to version included in packaged assets folder
+
+  # Check if each spam list exists, if not copy from assets, then get local version number, calculate latest version number
+  latestLocalSpamListVersion = "1900.12.31"
+  for x, spamList in spamListDict['Lists'].items():
+    if not os.path.exists(spamList['Path']):
+      files.copy_asset_file(spamList['FileName'], spamList['Path'])
+
+    listVersion = files.get_list_file_version(spamList['Path'])
+    spamList['Version'] = listVersion
+    if listVersion and parse_version(listVersion) > parse_version(latestLocalSpamListVersion):
+      latestLocalSpamListVersion = listVersion
+
+  spamListDict['Meta']['VersionInfo']['LatestLocalVersion'] = latestLocalSpamListVersion
+
+  # Check for version info file, if it doesn't exist, get from assets folder
+  if not os.path.exists(spamListDict['Meta']['VersionInfo']['Path']):
+    files.copy_asset_file(spamListDict['Meta']['VersionInfo']['FileName'], spamListDict['Meta']['VersionInfo']['Path'])
+
+  # Check if filter_variables.py is in Spampurge_Resources, if not copy from temp folder or scripts, depending if using pyinstaller
+  filterFilePath = os.path.join(filtersFolder, filterFileName)
+  if not os.path.exists(filterFilePath):
+    files.copy_scripts_file(filterFileName, filterFilePath)
+
+  # Get stored spam list version data from json file
+  jsonData = open(spamListDict['Meta']['VersionInfo']['Path'], 'r', encoding="utf-8")
+  versionInfoJson = str(json.load(jsonData)) # Parses json file into a string
+  versionInfo = ast.literal_eval(versionInfoJson) # Parses json string into a dictionary
+  spamListDict['Meta']['VersionInfo']['LatestRelease'] = versionInfo['LatestRelease']
+  spamListDict['Meta']['VersionInfo']['LastChecked'] = versionInfo['LastChecked']
+
+  # Get current version of filter_variables.py that is in the SpamPurge_Resources/Filters folder
+  filterVersion = files.get_current_filter_version(filterListDict)
+  filterListDict['LocalVersion'] = filterVersion
+
+  # Check for primary config file, load into dictionary 'config'. If no config found, loads data from default config in assets folder
+  utils.clear_terminal()
+  config = files.load_config_file(configVersion)
+  validation.validate_config_settings(config)
+  utils.clear_terminal()
+
+  # Disable colors before they are used anywhere
+  if config['colors_enabled'] == False:
+    # Disables colors entirely
+    init(autoreset=True, strip=True, convert=False)
+  else:
+    # Initiates colorama and creates shorthand variables for resetting colors
+    init(autoreset=True)
+
+  # Check for program and list updates if auto updates enabled in config
+  try:
+    if config['release_channel'] == "all":
+      updateReleaseChannel = "all"
+    elif config['release_channel'] == "stable":
+      updateReleaseChannel = "stable"
+    else:
+      print("Invalid value for 'release_channel' in config file. Must be 'All' or 'Stable'")
+      print("Defaulting to 'All'")
+      input("Press Enter to Continue...")
+      updateReleaseChannel = "all"
+  except KeyError:
+    print("\nYour version of the config file does not specify a release channel. Defaulting to 'All'")
+    print(f"{F.YELLOW}Re-create your config{S.R} to get the latest version.")
+    input("\nPress Enter to Continue...")
+    updateReleaseChannel = "all"
+
+  if config['auto_check_update'] == True:
+    try:
+      updateAvailable = files.check_for_update(version, updateReleaseChannel, silentCheck=True, )
+    except Exception as e:
+      print(f"{F.LIGHTRED_EX}Error Code U-3 occurred while checking for updates. (Checking can be disabled using the config file setting) Continuing...{S.R}\n")
+      updateAvailable = None
+
+    # Only check for updates once a day, compare current date to last checked date
+    if datetime.today() > datetime.strptime(spamListDict['Meta']['VersionInfo']['LastChecked'], '%Y.%m.%d.%H.%M')+timedelta(days=1):
+      # Check for update to filter variables file
+      files.check_for_filter_update(filterListDict, silentCheck=True)
+      # Check spam lists if today or tomorrow's date is later than the last update date (add day to account for time zones)
+      if datetime.today()+timedelta(days=1) >= datetime.strptime(spamListDict['Meta']['VersionInfo']['LatestLocalVersion'], '%Y.%m.%d'):
+        spamListDict = files.check_lists_update(spamListDict, silentCheck=True)
+
+  else:
+    updateAvailable = False
+
+  # In all scenarios, load spam lists into memory
+  for x, spamList in spamListDict['Lists'].items():
+    spamList['FilterContents'] = files.ingest_list_file(spamList['Path'], keepCase=False)
+
+  # In all scenarios, load filter variables into memory. Must import prepare_modes after filter_variables has been updated and placed in SpamPurge_Resources
+  print("Loading filter file...\n")
+  # import Scripts.prepare_modes as modes
+  from .Scripts import prepare_modes as modes
+
+  ####### Load Other Data into MiscData #######
+  print("\nLoading other assets..\n")
+  @dataclass
+  class MiscDataStore:
+    resources:dict
+    spamLists:dict
+    totalCommentCount:int
+    channelOwnerID:str
+    channelOwnerName:str
+
+  miscData = MiscDataStore(
+    resources = {},
+    spamLists = {},
+    totalCommentCount = 0,
+    channelOwnerID = "",
+    channelOwnerName = "",
+    )
+
+  miscData.resources = resourcesDict
+  rootDomainListAssetFile = os.path.join(settings.SECRETS_DIR, "assets/rootZoneDomainList.txt")
+  # rootDomainListAssetFile = "rootZoneDomainList.txt"
+  rootDomainList = files.ingest_asset_file(rootDomainListAssetFile)
+  miscData.resources['rootDomainList'] = rootDomainList
+  miscData.spamLists['spamDomainsList'] = spamListDict['Lists']['Domains']['FilterContents']
+  miscData.spamLists['spamAccountsList'] = spamListDict['Lists']['Accounts']['FilterContents']
+  miscData.spamLists['spamThreadsList'] = spamListDict['Lists']['Threads']['FilterContents']
+
+
+  # Create Whitelist if it doesn't exist,
+  if not os.path.exists(whitelistPathWithName):
+    with open(whitelistPathWithName, "a") as f:
+      f.write("# Commenters whose channel IDs are in this list will always be ignored. You can add or remove IDs (one per line) from this list as you wish.\n")
+      f.write("# Channel IDs for a channel can be found in the URL after clicking a channel's name while on the watch page or where they've left a comment.\n")
+      f.write("# - Channels that were 'excluded' will also appear in this list.\n")
+      f.write("# - Lines beginning with a '#' are comments and aren't read by the program. (But do not put a '#' on the same line as actual data)\n\n")
+    miscData.resources['Whitelist']['WhitelistContents'] = []
+  else:
+    miscData.resources['Whitelist']['WhitelistContents'] = files.ingest_list_file(whitelistPathWithName, keepCase=True)
+
+  if config:
+    moderator_mode = config['moderator_mode']
+  else:
+    moderator_mode = False
+
+  utils.clear_terminal()
+
+
+
+
+
+
+  confirmedCorrectLogin = False
+  while confirmedCorrectLogin == False:
+    # Get channel ID and title of current user, confirm with user
+    userInfo = auth.get_current_user(config)
+    CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
+                       configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
+    auth.CURRENTUSER = CURRENTUSER
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
+
+    print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
+      CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
+    if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
+      confirmedCorrectLogin = True
+      utils.clear_terminal()
+    else:
+      auth.remove_token()
+      utils.clear_terminal()
+      YOUTUBE = auth.get_authenticated_service(client_secret_file)
+
+  # def reply_to_comment(comment_id, reply_text):
+  # sk - bOGZQnrYm5zC1FnJ7RqGT3BlbkFJzn1in3euzMT69QHWTzqL
+  try:
+
+    # openai.api_key = "sk - T24Q2mUoEe2Vfmwk5dhQT3BlbkFJ0fTU8N86hlCZjIPPMQFM"
+    # prompt = "AI, please reply to this comment: '"+comment_text+"'"
+    # ai_reply = openai.Completion.create(
+    #   engine="text-davinci-003",  # Use the appropriate OpenAI engine
+    #   prompt=prompt,
+    #   max_tokens=1  # Adjust as needed
+    # )
+    #
+    # reply_textt = ai_reply.choices[0].text.strip()
+
+    reply_response = auth.YOUTUBE.comments().insert(
+      part="snippet",
+      body={
+        "snippet": {
+          "parentId": comment_Id,
+          "textOriginal": reply_Text,
+        }
+      }
+    ).execute()
+
+    return render(request, "all_youtubevideo_comments.html",{"reply_success":"You Successsfully Replied to '"+comment_text+"'."})
+
+  except HttpError as e:
+    print("An HTTP error occurred:", e)
+    return render(request, "all_youtubevideo_comments.html",{"reply_failed":"You Failed Replied to '"+comment_text+"'."})
+
+
+# import tensorflow as tf
+# from transformers import BertTokenizer, TFBertForQuestionAnswering
+#
+# # Load pre-trained BERT model and tokenizer
+# tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+# model = TFBertForQuestionAnswering.from_pretrained('bert-base-uncased')
+#
+#
+# # Define a function to perform question answering
+# context = "Bert is a popular NLP model."
+# question = "What is Bert?"
+# def perform_question_answering(request, question, context):
+#   inputs = tokenizer.encode_plus(question, context, add_special_tokens=True, return_tensors='tf')
+#   start_scores, end_scores = model(**inputs)
+#
+#   start_index = tf.argmax(start_scores, axis=1).numpy()[0]
+#   end_index = tf.argmax(end_scores, axis=1).numpy()[0]
+#
+#   answer = tokenizer.convert_tokens_to_string(
+#     tokenizer.convert_ids_to_tokens(inputs['input_ids'][0][start_index:end_index + 1]))
+#   print("Answer:", answer)
+#   return answer
+
+
+# Example usage
+# context = "Bert is a popular NLP model."
+# question = "What is Bert?"
+# answer = perform_question_answering(question, context)

@@ -1,0 +1,4 @@
+['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'and', 'and',
+'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'is', 'is', 'kill', 'light',
+'moon', 'pale', 'sick', 'soft', 'sun', 'sun', 'the', 'the', 'the',
+'through', 'what', 'window', 'with', 'yonder']
