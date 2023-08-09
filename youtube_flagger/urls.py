@@ -25,4 +25,5 @@ urlpatterns = [
     path('downloadpdf/', views.download_pdf, name='download_pdf'),
     path('replycomment/<comment_Id>/<comment_text>', views.replyYTcomment, name="replyYTcomment"),
     # path('checking', views.perform_question_answering, name="perform_question_answering"),
+    path('payment', views.payment, name='payment'),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

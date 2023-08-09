@@ -8101,3 +8101,56 @@ def replyYTcomment(request, comment_Id, comment_text):
 # context = "Bert is a popular NLP model."
 # question = "What is Bert?"
 # answer = perform_question_answering(question, context)
+import stripe
+
+# settings.py
+
+
+stripe.api_key = settings.STRIPE_SECRET_KEY
+
+# def payment(request):
+#     if request.method == 'POST':
+#         amount = 1000  # Amount in cents (e.g., $10.00)
+#         try:
+#             # Create a payment intent
+#             intent = stripe.PaymentIntent.create(
+#                 amount=amount,
+#                 currency='usd',
+#             )
+#             client_secret = intent.client_secret
+#             return render(request, 'authentication/register.html', {'client_secret': client_secret})
+#         except stripe.error.CardError as e:
+#             # Handle card error
+#             error_message = e.user_message
+#             return render(request, 'authentication/register.html', {'error_message': error_message})
+#
+#     return render(request, 'payment.html')
+
+# views.py
+
+# from django.shortcuts import render
+# import stripe
+
+# stripe.api_key = settings.STRIPE_SECRET_KEY
+
+
+def payment(request):
+    if request.method == 'POST':
+        amount = 1000  # Amount in cents (e.g., $10.00)
+        try:
+            # Create a payment intent
+            intent = stripe.PaymentIntent.create(
+                amount=amount,
+                currency='usd',
+            )
+            client_secret = intent.client_secret
+            return render(request, 'authentication/register.html', {'client_secret': client_secret})
+        except stripe.error.CardError as e:
+            # Handle card error
+            error_message = e.user_message
+            return render(request, 'authentication/register.html', {'error_message': error_message})
+
+    return render(request, 'authentication/register.html')
+
+
+

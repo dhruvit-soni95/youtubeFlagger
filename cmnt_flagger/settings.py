@@ -154,9 +154,12 @@ MEDIA_URL = 'media/'
 #     'apscheduler.timezone': 'UTC',
 # }
 
+STRIPE_SECRET_KEY = 'sk_test_51KTzzrSFKCkaJrMjFzXo8Tk51KOBIRFBH3M8iiHKRaHz32klrQnGRztQP6oZpRh0GSsF2Ot6AgUUBpkAc9bkuwGs00jomQskFj'
+# STRIPE_PUBLISHABLE_KEY = ''
 
-
-
+PAYPAL_CLIENT_ID = 'AeeZ-s6h6NGsG6vN9gU5HcOPij73jgWE6Ne-Hq_g02dFdW8-VTo52DbddEZy0CLZ12HlEJ8CW10RUyll'
+PAYPAL_SECRET_KEY = 'EC0aKjHnnzUcK_eoRwCGPMPoh-wo9CvN7Yss0J7wVQnpCEPjoyBfowODzs_E122xOSwynMWEUcsFiFZQ'
+PAYPAL_MODE = 'sandbox'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
