@@ -9,7 +9,8 @@ class userRegistration(models.Model):
     user_password = models.CharField("Enter Password",max_length=100)
     user_youtube_channel_id = models.CharField("Enter your Youtube Channel Id", max_length=50)
     user_client_secret_json = models.FileField()
-    user_client_cobaltdeck_json = models.FileField()
+    user_client_service_account_json_file = models.FileField()
+    # user_client_cobaltdeck_json = models.FileField()
 
     def __str__(self):
         return self.user_name

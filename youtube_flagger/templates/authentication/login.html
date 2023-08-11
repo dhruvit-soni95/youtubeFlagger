@@ -15,6 +15,9 @@
   </head>
   <body>
     <div class="container">
+      {% if msgscss %}
+      <h3 style="background-color: green; color: white; border-radius:15px;" class="p-3">{{msgscss}}</h3>
+      {% endif %}
       <div class="wrapper">
         <div class="title"><span>Login Form</span></div>
         <form action="/" method="POST">

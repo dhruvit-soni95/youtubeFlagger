@@ -121,10 +121,11 @@ def register(request):
     user = JSONUploadForm(request.POST, request.FILES)
     if user.is_valid():
       handle_uploaded_file(request.FILES['user_client_secret_json'])
-      handle_uploaded_file(request.FILES['user_client_cobaltdeck_json'])
+      handle_uploaded_file(request.FILES['user_client_service_account_json_file'])
       model_instance = user.save(commit=False)
       model_instance.save()
-      return HttpResponseRedirect('/')
+      return render(request, 'authentication/login.html', {"msgscss":"Your Registered Successfully."})
+      # return HttpResponseRedirect('/')
   user = JSONUploadForm()
   return render(request,"authentication/register.html",{'form': user})
 
@@ -219,7 +220,7 @@ def index(request):
   print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
-  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  cobalt_deck_json = mydata.user_client_service_account_json_file
   print(client_secret_file)
   print(cobalt_deck_json)
   return render(request, 'index.html')
@@ -280,7 +281,7 @@ def xyz(request):
   print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
-  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  cobalt_deck_json = mydata.user_client_service_account_json_file
   print(client_secret_file)
   print(cobalt_deck_json)
   return
@@ -319,7 +320,8 @@ def main(request):
   print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
-  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  cobalt_deck_json = mydata.user_client_service_account_json_file
+  channel_id = mydata.user_youtube_channel_id
   print(client_secret_file)
   print(cobalt_deck_json)
   global yesItsError
@@ -613,7 +615,7 @@ def main(request):
   filterListDict['LocalVersion'] = filterVersion
 
   # Check for primary config file, load into dictionary 'config'. If no config found, loads data from default config in assets folder
-  utils.clear_terminal()
+  # utils.clear_terminal()
   config = files.load_config_file(configVersion)
   validation.validate_config_settings(config)
   utils.clear_terminal()
@@ -736,7 +738,8 @@ def main(request):
     userInfo = auth.get_current_user(config)
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1], configMatch=userInfo[2]) # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=channel_id)
+    # CURRENTUSER.id
 
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -2488,8 +2491,8 @@ def fetchYTvideos(request):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
-
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=channelid)
+    # CURRENTUSER.id
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -2561,6 +2564,7 @@ def retrieveComments(request):
   # print("email issssss " + key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
+  channel_id = mydata.user_youtube_channel_id
   # User = namedtuple('User', 'id name configMatch')
   User = namedtuple('User', 'id name configMatch')
 
@@ -2800,7 +2804,8 @@ def retrieveComments(request):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=channel_id)
+    # CURRENTUSER.id
 
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
@@ -2903,6 +2908,7 @@ def secondmain(request):
   # print("email issssss " + key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
+  channel_id = mydata.user_youtube_channel_id
   User = namedtuple('User', 'id name configMatch')
 
   config: dict
@@ -3141,8 +3147,8 @@ def secondmain(request):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
-
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=channel_id)
+    # CURRENTUSER.id
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -3175,6 +3181,9 @@ def secondmain(request):
   # Video ID for which you want to retrieve comments
   # video_id = vid
   comments = []
+  print("working 1")
+  print(video_id)
+
   # Retrieve comments for the video
   response = auth.YOUTUBE.commentThreads().list(
     part='snippet',
@@ -3182,6 +3191,7 @@ def secondmain(request):
     textFormat='plainText',
     moderationStatus='heldForReview'  # This field does not exist in the actual API
   ).execute()
+  print("working 2")
 
   # Process the response to access the comments
   for item in response['items']:
@@ -3205,6 +3215,7 @@ def checkHeldforReview(request):
   # print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
+  video_id = mydata.user_youtube_channel_id
 
   User = namedtuple('User', 'id name configMatch')
 
@@ -3449,8 +3460,8 @@ def checkHeldforReview(request):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
-
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=video_id)
+    # CURRENTUSER.id
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -3512,6 +3523,7 @@ def checkPublished(request):
   # print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
+  video_id = mydata.user_youtube_channel_id
   User = namedtuple('User', 'id name configMatch')
 
 
@@ -3760,8 +3772,8 @@ def checkPublished(request):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
-
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=video_id)
+    # CURRENTUSER.id
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -3855,7 +3867,8 @@ def perticulardeleteYTcomment(request, video_Id,commentsss):
   print("email issssss " + key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
-  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  cobalt_deck_json = mydata.user_client_service_account_json_file
+  channel_id = mydata.user_youtube_channel_id
   print(client_secret_file)
   print(cobalt_deck_json)
   global yesItsError
@@ -4050,10 +4063,10 @@ def perticulardeleteYTcomment(request, video_Id,commentsss):
   filterListDict['LocalVersion'] = filterVersion
 
   # Check for primary config file, load into dictionary 'config'. If no config found, loads data from default config in assets folder
-  utils.clear_terminal()
+  # utils.clear_terminal()
   config = files.load_config_file(configVersion)
   validation.validate_config_settings(config)
-  utils.clear_terminal()
+  # utils.clear_terminal()
 
   # Disable colors before they are used anywhere
   if config['colors_enabled'] == False:
@@ -4157,7 +4170,7 @@ def perticulardeleteYTcomment(request, video_Id,commentsss):
   else:
     moderator_mode = False
 
-  utils.clear_terminal()
+  # utils.clear_terminal()
 
   # ----------------------------------- Begin Showing Program ---------------------------------
   print(f"{F.LIGHTYELLOW_EX}\n===================== YOUTUBE SPAMMER PURGE v" + version + f" ====================={S.R}")
@@ -4178,16 +4191,16 @@ def perticulardeleteYTcomment(request, video_Id,commentsss):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
-
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=channel_id)
+    # CURRENTUSER.id
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
       confirmedCorrectLogin = True
-      utils.clear_terminal()
+      # utils.clear_terminal()
     else:
       auth.remove_token()
-      utils.clear_terminal()
+      # utils.clear_terminal()
       YOUTUBE = auth.get_authenticated_service(client_secret_file)
 
   # Declare Classes
@@ -4247,7 +4260,7 @@ def perticulardeleteYTcomment(request, video_Id,commentsss):
     loggingEnabled = False
     userNotChannelOwner = False
 
-    utils.clear_terminal()
+    # utils.clear_terminal()
 
     # -----------------------------------------------------------------------------------------------------------------------------
     if updateAvailable != False:
@@ -5983,7 +5996,8 @@ def AutoScanYT(request):
   print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
-  cobalt_deck_json = mydata.user_client_cobaltdeck_json
+  video_id = mydata.user_youtube_channel_id
+  cobalt_deck_json = mydata.user_client_service_account_json_file
 
 
   print(client_secret_file)
@@ -6367,7 +6381,8 @@ def AutoScanYT(request):
     userInfo = auth.get_current_user(config)
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1], configMatch=userInfo[2]) # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=video_id)
+    # CURRENTUSER.id
 
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
     if choice("       Continue as this user?", CURRENTUSER.configMatch) == True:
@@ -7782,6 +7797,7 @@ def replyYTcomment(request, comment_Id, comment_text):
   # print("email issssss "+key)
   mydata = userRegistration.objects.get(user_email=key)
   client_secret_file = mydata.user_client_secret_json
+  video_id = mydata.user_youtube_channel_id
   User = namedtuple('User', 'id name configMatch')
 
   reply_Text = request.GET.get('rplyid')
@@ -8030,7 +8046,8 @@ def replyYTcomment(request, comment_Id, comment_text):
     CURRENTUSER = User(id=userInfo[0], name=userInfo[1],
                        configMatch=userInfo[2])  # Returns [channelID, channelTitle, configmatch]
     auth.CURRENTUSER = CURRENTUSER
-    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=CURRENTUSER.id)
+    userRegistration.objects.filter(user_email=key).update(user_youtube_channel_id=video_id)
+    # CURRENTUSER.id
 
     print("\n    >  Currently logged in user: " + f"{F.LIGHTGREEN_EX}" + str(
       CURRENTUSER.name) + f"{S.R} (Channel ID: {F.LIGHTGREEN_EX}" + str(CURRENTUSER.id) + f"{S.R} )")
