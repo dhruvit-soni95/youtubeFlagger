@@ -10,10 +10,14 @@ class userRegistration(models.Model):
     user_youtube_channel_id = models.CharField("Enter your Youtube Channel Id", max_length=50)
     user_client_secret_json = models.FileField()
     user_client_service_account_json_file = models.FileField()
+    # Advisor_id = models.CharField(max_length=50)
     # user_client_cobaltdeck_json = models.FileField()
 
     def __str__(self):
         return self.user_name
 
-
+class listofUserInvitedAdvisors(models.Model):
+    id = models.AutoField
+    user_id = models.CharField(max_length=50, default="")
+    invited_friends_email = models.EmailField(default="")
 

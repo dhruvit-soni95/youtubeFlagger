@@ -167,7 +167,26 @@ def choice(message="", bypass=False):
     elif response == "X" or response == "x":
       return None
     else:
-      print("\nInvalid Input. Enter Y or N  --  Or enter X to return to main menu.")  
+      print("\nInvalid Input. Enter Y or N  --  Or enter X to return to main menu.")
+
+
+def choiceTwo(message="", bypass=False):
+  if bypass == True:
+    return True
+
+  # While loop until valid input
+  valid = False
+  while valid == False:
+    response = "n"
+    # input("\n" + message + f" ({F.LIGHTCYAN_EX}y{S.R}/{F.LIGHTRED_EX}n{S.R}): ").strip()
+    if response == "Y" or response == "y":
+      return True
+    elif response == "N" or response == "n":
+      return False
+    elif response == "X" or response == "x":
+      return None
+    else:
+      print("\nInvalid Input. Enter Y or N  --  Or enter X to return to main menu.")
 
 
 ############################### ERROR HANDLING MESSAGES #################################

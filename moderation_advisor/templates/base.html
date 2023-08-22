@@ -26,6 +26,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
   rel="stylesheet"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
     {% load static %}
@@ -49,6 +50,60 @@
 
 
     </style>
+
+
+
+
+
+
+
+
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+
+
+
+
+
+
+
+
+
 
 
     <!-- Custom styles for this template -->
@@ -95,39 +150,32 @@
             <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index">
+                        <a class="nav-link" aria-current="page" href="home">
                             <span data-feather="home"></span>
                             Dashboard
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fetchedvideos">
-<!--                            youtube-->
-                            <span data-feather="youtube"></span>
-                            Youtube
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="comments">
-<!--                            youtube-->
-                            <span data-feather="message-square"></span>
-                            Comments
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="getdatawhoinvited">
-<!--                            youtube-->
-                            <span data-feather="users"></span>
-                            Your Clients
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="profile">
-<!--                            youtube-->
-                            <span data-feather="user"></span>
-                            Profile
-                        </a>
-                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="fetchedvideos">-->
+<!--&lt;!&ndash;                            youtube&ndash;&gt;-->
+<!--                            <span data-feather="youtube"></span>-->
+<!--                            Youtube-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="comments">-->
+<!--&lt;!&ndash;                            youtube&ndash;&gt;-->
+<!--                            <span data-feather="message-square"></span>-->
+<!--                            Comments-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="profile">-->
+<!--&lt;!&ndash;                            youtube&ndash;&gt;-->
+<!--                            <span data-feather="user"></span>-->
+<!--                            Profile-->
+<!--                        </a>-->
+<!--                    </li>-->
                     <!--                    <li class="nav-item">-->
                     <!--                        <a class="nav-link" href="#">-->
                     <!--                            <span data-feather="shopping-cart"></span>-->
@@ -247,74 +295,74 @@
 
 
 <!--        document.addEventListener('DOMContentLoaded', function() {});-->
-<script>
-    let timeStarted = Date.now();
-    let timer;
+<!--<script>-->
+<!--    let timeStarted = Date.now();-->
+<!--    let timer;-->
 
-    function updateTimeSpent() {
-      const currentTime = Date.now();
-      const timeSpent = Math.floor((currentTime - timeStarted) / 1000); // Convert milliseconds to seconds
-      console.log("Time spent on the website:"+timeSpent)
-      if(timeSpent==3600){
-        console.log("its 10 seconds now")
-
-
-            fetch('AutoScanYT')  // Replace with the URL of your Django view from Step 1
-        .then(response => response.json())
-        .then(data => {
-
-            // Update the DOM with the fetched header data
-            const headerDataContainer = document.getElementById('notification');
-            if(data.errorr == undefined){
-                        headerDataContainer.innerHTML = `
+<!--    function updateTimeSpent() {-->
+<!--      const currentTime = Date.now();-->
+<!--      const timeSpent = Math.floor((currentTime - timeStarted) / 1000); // Convert milliseconds to seconds-->
+<!--      console.log("Time spent on the website:"+timeSpent)-->
+<!--      if(timeSpent==3600){-->
+<!--        console.log("its 10 seconds now")-->
 
 
-                <a class="nav-link" href="#" style="color:green;">
-                            <span data-feather="file-text"></span>
-                            ${data.success}
-                        </a>
-                <!-- Add other header-related content here -->
-            `;
-            }
-            if(data.success == undefined){
-                        headerDataContainer.innerHTML = `
+<!--            fetch('AutoScanYT')  // Replace with the URL of your Django view from Step 1-->
+<!--        .then(response => response.json())-->
+<!--        .then(data => {-->
+
+<!--            // Update the DOM with the fetched header data-->
+<!--            const headerDataContainer = document.getElementById('notification');-->
+<!--            if(data.errorr == undefined){-->
+<!--                        headerDataContainer.innerHTML = `-->
 
 
-                <a class="nav-link" href="#" style="color:red;">
-                            <span data-feather="file-text"></span>
-                            ${data.errorr}
-                        </a>
-                <!-- Add other header-related content here -->
-            `;
-            }
+<!--                <a class="nav-link" href="#" style="color:green;">-->
+<!--                            <span data-feather="file-text"></span>-->
+<!--                            ${data.success}-->
+<!--                        </a>-->
+<!--                &lt;!&ndash; Add other header-related content here &ndash;&gt;-->
+<!--            `;-->
+<!--            }-->
+<!--            if(data.success == undefined){-->
+<!--                        headerDataContainer.innerHTML = `-->
+
+
+<!--                <a class="nav-link" href="#" style="color:red;">-->
+<!--                            <span data-feather="file-text"></span>-->
+<!--                            ${data.errorr}-->
+<!--                        </a>-->
+<!--                &lt;!&ndash; Add other header-related content here &ndash;&gt;-->
+<!--            `;-->
+<!--            }-->
 
 
 
-        })
-        .catch(error => {
-            console.error('Error fetching header data:', error);
-        });
-        }
-          if(timeSpent>3600){
-            resetTimer()
-          }
+<!--        })-->
+<!--        .catch(error => {-->
+<!--            console.error('Error fetching header data:', error);-->
+<!--        });-->
+<!--        }-->
+<!--          if(timeSpent>3600){-->
+<!--            resetTimer()-->
+<!--          }-->
 
 
-      timer = setTimeout(updateTimeSpent, 1000); // Update every second (1000ms)
-    }
+<!--      timer = setTimeout(updateTimeSpent, 1000); // Update every second (1000ms)-->
+<!--    }-->
 
-    function resetTimer() {
-      clearTimeout(timer);
-      timeStarted = Date.now();
-      timer = setTimeout(updateTimeSpent, 1000);
+<!--    function resetTimer() {-->
+<!--      clearTimeout(timer);-->
+<!--      timeStarted = Date.now();-->
+<!--      timer = setTimeout(updateTimeSpent, 1000);-->
 
-    }
+<!--    }-->
 
-    // Start the timer when the page loads
-    updateTimeSpent();
+<!--    // Start the timer when the page loads-->
+<!--    updateTimeSpent();-->
 
 
-  </script>
+<!--  </script>-->
 
 <!--<script>-->
 <!--    // javascript/file.js-->

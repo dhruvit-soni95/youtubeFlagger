@@ -1,0 +1,55 @@
+{% extends './base.html' %}
+
+{% block body %}
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Manage your Users</h1>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            {% for data in alldata %}
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    {% load static %}
+                    <img src="{% static 'img/unsplash-photo-2.jpg' %}" height="250px" alt="John" style="width:100%">
+                    <h1>{{data.userName}}</h1>
+                    <p class="title">Channel Id : {{data.userChannelId}}</p>
+                    <p class="title">Email : {{data.userEmail}}</p>
+                    <p>Phone : {{data.userPhone}}</p>
+                    <div style="margin: 24px 0;">
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <p>
+                        <a href="seeDetails/{{data.id}}" >Manage</a>
+<!--                        onclick="seeDetails({{data.id}})"-->
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+
+
+
+        </div>
+    </div>
+
+
+</main>
+
+
+{% endblock %}
+<!--{% block script %}-->
+<!--<script>-->
+<!--    function seeDetails(id){-->
+<!--    console.log("id is "+id)-->
+<!--        window.location.replace = 'seeDetails/'+id;-->
+<!--    }-->
+
+<!--</script>-->
+<!--{% endblock %}-->

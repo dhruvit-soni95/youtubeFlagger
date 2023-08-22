@@ -26,4 +26,14 @@ urlpatterns = [
     path('replycomment/<comment_Id>/<comment_text>', views.replyYTcomment, name="replyYTcomment"),
     # path('checking', views.perform_question_answering, name="perform_question_answering"),
     path('payment', views.payment, name='payment'),
+    path('comments', views.comments, name='comments'),
+    path('profile', views.profile, name='profile'),
+    path('invitefriend', views.invitefriend, name='invitefriend'),
+
+    # path('home', views.home, name="home"),
+    path('request/<user_id>/<friends_email>', views.inviterequest, name="request"),
+    path('getdatawhoinvited', views.getdatawhoinvited, name="getdatawhoinvited"),
+    path('seeDetails/<id>', views.seeUserDetails, name="seeDetails"),
+    path('seeDetails/seeUserComments/<id>', views.seeUserComments, name="seeUserComments"),
+    path('seeDetails/users_held_for_review_comments/<id>', views.users_held_for_review_comments, name="users_held_for_review_comments"),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

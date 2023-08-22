@@ -20,7 +20,7 @@ from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from json import JSONDecodeError
 from django.conf import settings
-TOKEN_FILE_NAME = 'token.pickle'
+# TOKEN_FILE_NAME = 'token.pickle'
 
 # CLIENT_SECRETS_FILE = None
 YOUTUBE = None
@@ -48,10 +48,12 @@ def initialize():
 # Authorize the request and store authorization credentials.
 
 
-def get_authenticated_service(client_secrets):
+def get_authenticated_service(client_secrets, email):
     global YOUTUBE
     # global CLIENT_SECRETS_FILE
     # client_secret_file = "/upload/"+client_secrets
+    print("Authenticating File is HERE")
+    print(client_secrets)
     secrets_path = os.path.join(settings.SECRETS_DIR+"/upload/", str(client_secrets))
     # with open(secrets_path) as secrets_file:
     CLIENT_SECRETS_FILE = secrets_path
@@ -80,35 +82,42 @@ def get_authenticated_service(client_secrets):
             print(
                 f"\n  > (Non-shortened Link: https://github.com/ThioJoe/YT-Spammer-Purge/wiki/Instructions:-Obtaining-an-API-Key)")
             input("\nPress Enter to Exit...")
-            sys.exit()
+            # sys.exit()
 
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first time.
-    if os.path.exists(TOKEN_FILE_NAME):
-        creds = Credentials.from_authorized_user_file(TOKEN_FILE_NAME, scopes=YOUTUBE_READ_WRITE_SSL_SCOPE)
+    if os.path.exists('token_'+email+'.pickle'):
+        creds = Credentials.from_authorized_user_file('token_'+email+'.pickle', scopes=YOUTUBE_READ_WRITE_SSL_SCOPE)
 
     # If there are no (valid) credentials available, make the user log in.
     if not creds or not creds.valid:
+        print('token_' + email + '.pickle')
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
+            print('token_' + email + '.pickle')
             print(f"\nPlease {F.YELLOW}login using the browser window{S.R} that opened just now.\n")
             flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, scopes=YOUTUBE_READ_WRITE_SSL_SCOPE)
             creds = flow.run_local_server(port=0,
                                           authorization_prompt_message="Waiting for authorization. See message above.")
             print(f"{F.GREEN}[OK] Authorization Complete.{S.R}")
             # Save the credentials for the next run
-        with open(TOKEN_FILE_NAME, 'w') as token:
+        # email_id =
+        with open('token_'+email+'.pickle', 'w') as token:
+            print("tttttttttttttttttttttttttttttttttttttttttttttttt")
+            print('token_'+email+'.pickle')
+            print(creds.to_json())
             token.write(creds.to_json())
+
     YOUTUBE = build(API_SERVICE_NAME, API_VERSION, credentials=creds, discoveryServiceUrl=DISCOVERY_SERVICE_URL)
     return YOUTUBE
 
 
-def first_authentication(client_secrets):
+def first_authentication(client_secrets,email):
     global YOUTUBE
     try:
-        YOUTUBE = get_authenticated_service(client_secrets)  # Create authentication object
+        YOUTUBE = get_authenticated_service(client_secrets,email)  # Create authentication object
     except JSONDecodeError as jx:
         print(f"{F.WHITE}{B.RED} [!!!] Error: {S.R}" + str(jx))
         print(
@@ -118,11 +127,11 @@ def first_authentication(client_secrets):
         print(
             "If you think this is a bug, you may report it on this project's GitHub page: https://github.com/ThioJoe/YT-Spammer-Purge/issues")
         input("Press Enter to Exit...")
-        sys.exit()
+        # sys.exit()
     except Exception as e:
         if "invalid_grant" in str(e):
             print(f"{F.YELLOW}[!] Invalid token{S.R} - Requires Re-Authentication")
-            os.remove(TOKEN_FILE_NAME)
+            os.remove('token_'+email+'.pickle')
             YOUTUBE = get_authenticated_service()
         else:
             print('\n')
@@ -131,9 +140,9 @@ def first_authentication(client_secrets):
             print(f"{F.RED}[!!!] Error: {S.R}" + str(e))
             print(
                 "If you think this is a bug, you may report it on this project's GitHub page: https://github.com/ThioJoe/YT-Spammer-Purge/issues")
-            input(
-                f"\nError Code A-1: {F.RED}Something went wrong during authentication.{S.R} {F.YELLOW}Try deleting the token.pickle file.{S.R} \nPress Enter to Exit...")
-            sys.exit()
+            # input(
+            #     f"\nError Code A-1: {F.RED}Something went wrong during authentication.{S.R} {F.YELLOW}Try deleting the token.pickle file.{S.R} \nPress Enter to Exit...")
+            # sys.exit()
     return YOUTUBE
 
 
@@ -144,7 +153,7 @@ class ChannelIDError(Exception):
 
 
 # Get channel ID and channel title of the currently authorized user
-def get_current_user(config):
+def get_current_user(config, email):
     # Define fetch function so it can be re-used if issue and need to re-run it
     def fetch_user():
         results = YOUTUBE.channels().list(
@@ -168,7 +177,7 @@ def get_current_user(config):
         print(
             "> When choosing the account to log into, you selected the option showing the Google Account's email address, which might not have a channel attached to it.")
         input("\nPress Enter to try logging in again...")
-        os.remove(TOKEN_FILE_NAME)
+        os.remove('token_'+email+'.pickle')
 
         global YOUTUBE
         YOUTUBE = get_authenticated_service()
@@ -203,7 +212,7 @@ def get_current_user(config):
         print(
             "\nError: Still unable to get channel info. Big Bruh Moment. Try deleting token.pickle. The info above might help if you want to report a bug.")
         input("\nPress Enter to Exit...")
-        sys.exit()
+        # sys.exit()
 
     if config == None:
         configMatch = None  # Used only if channel ID is set in the config
@@ -216,14 +225,14 @@ def get_current_user(config):
             print(
                 "Error: The channel ID in the config file appears to be valid, but does not match the channel ID of the currently logged in user.")
             input("Please check the config file. Press Enter to Exit...")
-            sys.exit()
+            # sys.exit()
     else:
         print("Error: The channel ID in the config file appears to be invalid.")
         input("Please check the config file. Press Enter to Exit...")
-        sys.exit()
+        # sys.exit()
 
     return channelID, channelTitle, configMatch
 
 
-def remove_token():
-    os.remove(TOKEN_FILE_NAME)
+def remove_token(email):
+    os.remove('token_'+email+'.pickle')
