@@ -45,7 +45,7 @@
                         <td>{{ cmnt.cmnts }}</td>
                         <td>{{ cmnt.author }}</td>
                         <td>
-                            <form action="checkPublished" method="get">{% csrf_token %}
+                            <form action="users_checkPublished/{{id}}" method="get">{% csrf_token %}
                                 <input type="text" name="cmntid"  style="display:none;"  value="{{cmnt.cmntid}}" required>
                                 <button type="submit" class="btn btn-dark" title="Approve Comments"><i class="fa fa-check"></i></button>
                             </form>

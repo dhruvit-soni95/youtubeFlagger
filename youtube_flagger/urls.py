@@ -36,4 +36,9 @@ urlpatterns = [
     path('seeDetails/<id>', views.seeUserDetails, name="seeDetails"),
     path('seeDetails/seeUserComments/<id>', views.seeUserComments, name="seeUserComments"),
     path('seeDetails/users_held_for_review_comments/<id>', views.users_held_for_review_comments, name="users_held_for_review_comments"),
+    path('seeDetails/seeUserComments/users_checkHeldforReview/<id>', views.users_checkHeldforReview, name="users_checkHeldforReview"),
+    path('seeDetails/users_held_for_review_comments/users_checkPublished/<id>', views.users_checkPublished, name="users_checkPublished"),
+    path('seeDetails/seeUserComments/users_perticulardeleteYTcomment/<video_Id>/<commentsss>/<id>', views.users_perticulardeleteYTcomment, name="users_perticulardeleteYTcomment"),
+    path('seeDetails/seeUserComments/users_replyYTcomment/<comment_Id>/<comment_text>/<id>', views.users_replyYTcomment, name="users_replyYTcomment"),
+    path('seeDetails/users_main/<id>', views.users_main, name="users_main"),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

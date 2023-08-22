@@ -25,6 +25,12 @@
 
 
             <div class="container">
+                {% if success %}
+                            <h3 style="background-color: green; color: white; border-radius:15px;" class="p-3">{{success}}</h3>
+                                {% endif %}
+                                {% if errorr %}
+            <h3 style="background-color: red; color: white; border-radius:15px;" class="p-3">{{errorr}}</h3>
+                {% endif %}
               <div class="row">
                   {% for videos in ina %}
                 <div class="col-md-4 mb-3">
@@ -46,7 +52,7 @@
 <!--                                <button type="submit" class="btn btn-primary">Held for Review Comments</button>-->
                                 <button type="submit" class="btn btn-dark" title="See Held For Review Comments"><i class="fa fa-flag"></i></button>
                         </form>
-                        <form class="p-2" action="main" method="get">{% csrf_token %}
+                        <form class="p-2" action="users_main/{{id}}" method="get">{% csrf_token %}
                                 <input type="text" name="vId" style="display:none;" id="vid" value="{{videos.videoId}}" required>
 <!--                                <button type="submit" class="btn btn-primary" id="scanning">Scan and Delete Punlished Comments</button>-->
                                 <button type="submit" class="btn btn-dark"  id="scanning" title="Scan and Delete Published Comments"><i class="fa fa-trash"></i></button>
