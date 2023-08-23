@@ -8553,7 +8553,7 @@ def invitefriend(request):
   mydata = userRegistration.objects.get(user_email=key)
   current_id = mydata.id
   friend_email = request.POST.get('InvitedEmail')
-  accept_link = 'http://3.84.231.218/request/'+str(current_id)+'/'+str(friend_email)  # Replace with your actual accept link
+  accept_link = 'http://18.212.124.41/request/'+str(current_id)+'/'+str(friend_email)  # Replace with your actual accept link
   try:
     send_accept_request_email(key, friend_email, accept_link)
     return render(request,"index.html",{"success":""})
